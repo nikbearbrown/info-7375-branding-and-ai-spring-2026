@@ -217,4 +217,44 @@ For course adoption inquiries, instructor materials, and bulk licensing: contact
 
 ---
 
+## What This Book Is
+
+The job market has changed in a specific way and most engineering programs have not yet caught up.
+
+The change is not subtle. In a 2023 controlled experiment, ninety-five professional developers were given the same task — write an HTTP server in JavaScript. Half got [GitHub Copilot](https://arxiv.org/abs/2302.06590); half did not. The Copilot group finished in 71 minutes on average. The control group took 161 minutes. That is 56% faster, on a task that was, ten years ago, a job interview question used to filter out applicants who did not really know how to code. The [2024 Stack Overflow Developer Survey](https://survey.stackoverflow.co/2024/ai) reported 82% of developers using AI tools to write code and 76% currently using or planning to. The picture is consistent across the data: the production of working software has been substantially commoditized.
+
+This book argues a single claim and follows its consequences for an entire career arc.
+
+---
+
+## How to Read It
+
+Twelve chapters in four parts, plus front matter, an introduction, and an appendix of running-project exercises that map across the entire arc. The four parts mirror a three-act dramatic structure with a midpoint — *foundation, build, brand, launch* — and the underlying argument compounds part by part. Below is the chapter-level roadmap. Read it now; come back to it whenever you lose the thread.
+
+---
+
+## Signature Simulations
+
+<!-- TODO: populate from chapter content -->
+
+---
+
+## Copyright
+
+Copyright © 2026 Nik Bear Brown & Nina Harris. All rights reserved.
+
+Published by Bear Brown, LLC.
+
+No part of this publication may be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of the publisher, except in the case of brief quotations in critical reviews and certain other noncommercial uses permitted by copyright law.
+
+Madison™ is a framework released by Humanitarians AI under an open-source license; references in this book are made under fair use for educational purposes. Trademarks of third-party products discussed in case studies — including but not limited to Stripe, Anthropic, OpenAI, Google, Linear, Cursor, and Tropicana — remain the property of their respective owners.
+
+The student work cited in this volume — including AdverseAI, PositionPulse, and other named projects — appears with the permission of the students who built it, and remains their intellectual property.
+
+ISBN: [INSERT ISBN]
+
+First edition: 2026
+
+---
+
 *Now go ship.*

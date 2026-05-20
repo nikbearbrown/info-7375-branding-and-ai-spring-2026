@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shreya Kini — Brand Presentation</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --p1: #6C63FF;
+  --p2: #A78BFA;
+  --p3: #38BDF8;
+  --g1: #10B981;
+  --rose: #F43F5E;
+  --amber: #F59E0B;
+  --white: #FFFFFF;
+  --off: #F8F7FF;
+  --ink: #0F0E17;
+  --ink2: #2D2B3D;
+  --ink3: #6B6882;
+  --card: rgba(255,255,255,0.7);
+  --border: rgba(108,99,255,0.12);
+  --border2: rgba(108,99,255,0.08);
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+html, body { width:100%; height:100%; overflow:hidden; background:var(--off); color:var(--ink); }
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background: linear-gradient(135deg, #F0EEFF 0%, #EBF8FF 50%, #F0FDF4 100%);
+}
+
+/* ── MESH BG ── */
+.mesh {
+  position: fixed; inset: 0; pointer-events: none; z-index: 0;
+  background:
+    radial-gradient(ellipse 60% 50% at 10% 20%, rgba(108,99,255,0.08) 0%, transparent 70%),
+    radial-gradient(ellipse 50% 60% at 90% 80%, rgba(56,189,248,0.08) 0%, transparent 70%),
+    radial-gradient(ellipse 40% 40% at 50% 50%, rgba(167,139,250,0.05) 0%, transparent 70%);
+}
+
+/* ── DECK ── */
+.deck { width:100vw; height:100vh; position:relative; }
+.slide {
+  position: absolute; inset: 0;
+  display: flex; flex-direction: column;
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.45s ease;
+  padding: 0;
+  z-index: 1;
+}
+.slide.active { opacity:1; pointer-events:all; }
+
+/* ── NAV ── */
+.arr {
+  position: fixed; top: 50%; transform: translateY(-50%);
+  width: 40px; height: 40px; border-radius: 50%;
+  background: rgba(255,255,255,0.9);
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 16px rgba(108,99,255,0.12);
+  color: var(--p1); font-size: 16px; cursor: pointer; z-index: 500;
+  display: flex; align-items: center; justify-content: center;
+  transition: all 0.2s; backdrop-filter: blur(8px);
+}
+.arr:hover { background: var(--p1); color: #fff; border-color: var(--p1); transform: translateY(-50%) scale(1.05); }
+.prev { left: 16px; } .next { right: 16px; }
+
+.dots { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); display: flex; gap: 7px; z-index: 500; }
+.dot { width: 6px; height: 6px; border-radius: 3px; background: rgba(108,99,255,0.2); cursor: pointer; transition: all 0.3s; }
+.dot.on { background: var(--p1); width: 22px; }
+
+/* ── SHARED ── */
+.slide-inner { flex: 1; display: flex; flex-direction: column; padding: 52px 68px 64px; }
+
+.top-bar {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-bottom: 36px;
+}
+.logo-pill {
+  display: flex; align-items: center; gap: 10px;
+  background: rgba(255,255,255,0.8); border: 1px solid var(--border);
+  border-radius: 100px; padding: 6px 16px 6px 10px;
+  box-shadow: 0 2px 8px rgba(108,99,255,0.08);
+  backdrop-filter: blur(8px);
+}
+.logo-dot {
+  width: 28px; height: 28px; border-radius: 50%;
+  background: linear-gradient(135deg, var(--p1), var(--p2));
+  display: flex; align-items: center; justify-content: center;
+  font-size: 11px; font-weight: 800; color: #fff; letter-spacing: 1px;
+}
+.logo-name { font-size: 13px; font-weight: 600; color: var(--ink2); }
+
+.section-chip {
+  background: rgba(255,255,255,0.7); border: 1px solid var(--border);
+  border-radius: 100px; padding: 5px 14px;
+  font-size: 11px; font-weight: 500; color: var(--ink3); letter-spacing: 0.3px;
+  backdrop-filter: blur(8px);
+}
+.slide-num-chip {
+  background: linear-gradient(135deg, var(--p1), var(--p2));
+  border-radius: 100px; padding: 5px 14px;
+  font-size: 11px; font-weight: 600; color: #fff; letter-spacing: 0.5px;
+}
+
+.label {
+  font-size: 11px; font-weight: 600; letter-spacing: 3px;
+  text-transform: uppercase; color: var(--p1); margin-bottom: 10px;
+}
+.h1 {
+  font-size: clamp(32px, 4.5vw, 56px); font-weight: 800;
+  line-height: 1.05; letter-spacing: -1.5px; color: var(--ink);
+  margin-bottom: 6px;
+}
+.h1 span { background: linear-gradient(135deg, var(--p1), var(--p3)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.h2 { font-size: clamp(22px, 3vw, 38px); font-weight: 800; letter-spacing: -0.8px; line-height: 1.1; color: var(--ink); }
+.h2 span { background: linear-gradient(135deg, var(--p1), var(--p3)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.body { font-size: clamp(13px, 1.4vw, 15px); color: var(--ink3); line-height: 1.75; font-weight: 400; }
+.body strong { color: var(--ink2); font-weight: 600; }
+
+/* GLASS CARD */
+.glass {
+  background: var(--card);
+  border: 1px solid rgba(255,255,255,0.9);
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(108,99,255,0.07), 0 1px 3px rgba(0,0,0,0.04);
+  backdrop-filter: blur(12px);
+}
+.glass-dark {
+  background: linear-gradient(135deg, var(--ink) 0%, var(--ink2) 100%);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+}
+
+.badge {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 4px 12px; border-radius: 100px;
+  font-size: 11px; font-weight: 600; letter-spacing: 0.3px;
+}
+.badge-purple { background: rgba(108,99,255,0.1); color: var(--p1); }
+.badge-green { background: rgba(16,185,129,0.1); color: var(--g1); }
+.badge-blue { background: rgba(56,189,248,0.1); color: var(--p3); }
+
+/* ════════════════════════
+   SLIDE 1 — TITLE
+════════════════════════ */
+#s1 .slide-inner { justify-content: space-between; }
+.s1-body { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; flex: 1; }
+.s1-left { display: flex; flex-direction: column; justify-content: center; }
+.s1-path-badge {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: linear-gradient(135deg, rgba(108,99,255,0.1), rgba(56,189,248,0.1));
+  border: 1px solid rgba(108,99,255,0.2);
+  border-radius: 100px; padding: 6px 16px; margin-bottom: 24px; width: fit-content;
+  font-size: 11px; font-weight: 600; color: var(--p1); letter-spacing: 0.5px;
+}
+.s1-path-badge .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--p1); }
+.s1-name {
+  font-size: clamp(52px, 8vw, 92px); font-weight: 800; line-height: 0.92;
+  letter-spacing: -3px; color: var(--ink); margin-bottom: 20px;
+}
+.s1-name .grad { background: linear-gradient(135deg, var(--p1) 0%, var(--p2) 50%, var(--p3) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.s1-tagline { font-size: clamp(14px, 1.6vw, 17px); color: var(--ink3); line-height: 1.6; max-width: 380px; margin-bottom: 28px; }
+.s1-tagline strong { color: var(--ink2); font-weight: 600; }
+.s1-quote {
+  padding: 18px 20px; border-radius: 12px;
+  background: linear-gradient(135deg, rgba(108,99,255,0.06), rgba(56,189,248,0.06));
+  border: 1px solid rgba(108,99,255,0.15);
+  font-size: 13px; color: var(--ink3); line-height: 1.7; font-style: italic;
+  max-width: 380px;
+}
+
+.s1-right { display: flex; flex-direction: column; justify-content: center; gap: 14px; }
+.s1-stat {
+  padding: 22px 24px; border-radius: 16px;
+  background: rgba(255,255,255,0.8);
+  border: 1px solid rgba(255,255,255,0.95);
+  box-shadow: 0 4px 20px rgba(108,99,255,0.08);
+  display: flex; align-items: center; gap: 18px;
+}
+.s1-stat-orb {
+  width: 52px; height: 52px; border-radius: 14px; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 22px;
+}
+.s1-stat-val { font-size: clamp(26px, 3vw, 36px); font-weight: 800; letter-spacing: -1px; line-height: 1; }
+.s1-stat-lbl { font-size: 11px; color: var(--ink3); margin-top: 3px; line-height: 1.4; }
+.s1-meta {
+  margin-top: 4px; font-size: 11px; color: var(--ink3); letter-spacing: 0.3px;
+  display: flex; align-items: center; gap: 8px;
+}
+.s1-meta::before { content: ''; display: block; width: 20px; height: 1px; background: var(--ink3); opacity: 0.3; }
+
+/* ════════════════════════
+   SLIDE 2 — PERSONAS
+════════════════════════ */
+.persona-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 16px; flex: 1; }
+.pcard {
+  padding: 24px; border-radius: 16px;
+  background: rgba(255,255,255,0.75);
+  border: 1px solid rgba(255,255,255,0.95);
+  box-shadow: 0 4px 20px rgba(108,99,255,0.06);
+  display: flex; flex-direction: column; gap: 14px;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.pcard:hover { box-shadow: 0 8px 32px rgba(108,99,255,0.14); transform: translateY(-2px); }
+.pcard-top { display: flex; align-items: center; gap: 12px; }
+.avatar {
+  width: 44px; height: 44px; border-radius: 12px; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 800; font-size: 16px; color: #fff;
+}
+.pcard-role { font-size: 10px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: var(--ink3); }
+.pcard-name { font-size: 16px; font-weight: 700; color: var(--ink); }
+.pcard-quote {
+  font-size: 13px; color: var(--ink2); line-height: 1.65; font-style: italic;
+  padding: 14px; border-radius: 10px;
+  background: linear-gradient(135deg, rgba(108,99,255,0.05), rgba(56,189,248,0.05));
+  border-left: 3px solid var(--p1);
+}
+.pcard-quote strong { color: var(--ink); font-style: normal; }
+.pcard-fear { font-size: 11px; color: var(--ink3); line-height: 1.6; padding-top: 12px; border-top: 1px solid var(--border2); }
+
+/* ════════════════════════
+   SLIDE 3 — UVP
+════════════════════════ */
+.s3-grid { display: grid; grid-template-columns: 5fr 4fr; gap: 24px; flex: 1; }
+.s3-left { display: flex; flex-direction: column; justify-content: center; }
+.uvp-card {
+  padding: 24px 26px; border-radius: 16px; margin: 16px 0 24px;
+  background: linear-gradient(135deg, rgba(108,99,255,0.07), rgba(56,189,248,0.07));
+  border: 1px solid rgba(108,99,255,0.18);
+}
+.uvp-text { font-size: clamp(16px, 2vw, 22px); font-weight: 500; line-height: 1.55; color: var(--ink2); font-style: italic; }
+.uvp-text strong { background: linear-gradient(135deg, var(--p1), var(--p3)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-style: normal; }
+
+.pillars { display: flex; flex-direction: column; gap: 10px; }
+.pillar {
+  display: flex; gap: 14px; align-items: flex-start;
+  padding: 16px; border-radius: 12px;
+  background: rgba(255,255,255,0.6); border: 1px solid rgba(255,255,255,0.9);
+  transition: background 0.2s;
+}
+.pillar:hover { background: rgba(255,255,255,0.9); }
+.pillar-icon { font-size: 20px; flex-shrink: 0; margin-top: 1px; }
+.pillar-h { font-size: 13px; font-weight: 700; color: var(--ink); margin-bottom: 3px; }
+.pillar-p { font-size: 12px; color: var(--ink3); line-height: 1.55; }
+
+.s3-right { display: flex; flex-direction: column; gap: 16px; justify-content: center; }
+.arch-card {
+  padding: 24px; border-radius: 16px;
+  background: linear-gradient(135deg, var(--p1), var(--p2));
+  color: #fff;
+}
+.arch-lbl { font-size: 10px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; opacity: 0.7; margin-bottom: 8px; }
+.arch-name { font-size: 26px; font-weight: 800; letter-spacing: -0.5px; margin-bottom: 10px; }
+.arch-desc { font-size: 12px; opacity: 0.8; line-height: 1.6; }
+.proof-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.proof-box {
+  padding: 18px 14px; text-align: center; border-radius: 12px;
+  background: rgba(255,255,255,0.75); border: 1px solid rgba(255,255,255,0.95);
+  box-shadow: 0 2px 10px rgba(108,99,255,0.06);
+}
+.proof-val { font-size: clamp(22px, 2.5vw, 32px); font-weight: 800; letter-spacing: -1px; line-height: 1; background: linear-gradient(135deg, var(--p1), var(--p3)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.proof-lbl { font-size: 10px; color: var(--ink3); margin-top: 4px; line-height: 1.4; }
+
+/* ════════════════════════
+   SLIDE 4 — COMPETITIVE
+════════════════════════ */
+.comp-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; flex: 1; }
+.matrix-card { padding: 24px; border-radius: 16px; background: rgba(255,255,255,0.75); border: 1px solid rgba(255,255,255,0.95); position: relative; }
+.mat { position: relative; width: 100%; padding-top: 82%; }
+.mat-b { position: absolute; inset: 20px; }
+.axh { position: absolute; left: 0; right: 0; top: 50%; height: 1px; background: var(--border); }
+.axv { position: absolute; top: 0; bottom: 0; left: 50%; width: 1px; background: var(--border); }
+.axl { position: absolute; font-size: 9px; letter-spacing: 2px; text-transform: uppercase; color: var(--ink3); font-weight: 600; }
+.axl.t { top: -20px; left: 50%; transform: translateX(-50%); color: var(--p1); }
+.axl.b { bottom: -20px; left: 50%; transform: translateX(-50%); }
+.axl.l { left: -8px; top: 50%; transform: translateY(-50%) rotate(-90deg); }
+.axl.r { right: -12px; top: 50%; transform: translateY(-50%) rotate(90deg); color: var(--p1); }
+.mpt { position: absolute; transform: translate(-50%,-50%); text-align: center; }
+.mptd { width: 10px; height: 10px; border-radius: 50%; margin: 0 auto 4px; }
+.mptd.me { width: 14px; height: 14px; background: linear-gradient(135deg, var(--p1), var(--p3)); box-shadow: 0 0 12px rgba(108,99,255,0.5); }
+.mptd.c { background: rgba(107,104,130,0.3); border: 1px solid rgba(107,104,130,0.4); }
+.mptl { font-size: 9px; color: var(--ink3); white-space: nowrap; }
+.mptl.me { color: var(--p1); font-weight: 700; font-size: 10px; }
+
+.diffs { display: flex; flex-direction: column; gap: 12px; justify-content: center; }
+.diff-card {
+  display: flex; gap: 16px; padding: 18px; border-radius: 12px;
+  background: rgba(255,255,255,0.75); border: 1px solid rgba(255,255,255,0.95);
+}
+.diff-n { font-size: 28px; font-weight: 800; line-height: 1; flex-shrink: 0; background: linear-gradient(135deg, var(--p1), var(--p2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; opacity: 0.4; }
+.diff-t { font-size: 13px; color: var(--ink3); line-height: 1.65; }
+.diff-t strong { color: var(--ink2); font-weight: 600; }
+
+/* ════════════════════════
+   SLIDE 5 — VISUAL IDENTITY
+════════════════════════ */
+.identity-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; flex: 1; }
+.id-left { display: flex; flex-direction: column; gap: 24px; justify-content: center; }
+.id-right { display: flex; flex-direction: column; gap: 16px; justify-content: center; }
+.id-lbl { font-size: 10px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; color: var(--p1); margin-bottom: 12px; }
+.logo-display {
+  width: 88px; height: 88px; border-radius: 20px;
+  background: linear-gradient(135deg, var(--p1), var(--p2));
+  display: flex; align-items: center; justify-content: center;
+  font-size: 28px; font-weight: 800; color: #fff; letter-spacing: 2px;
+  box-shadow: 0 8px 32px rgba(108,99,255,0.3);
+}
+.swatches { display: flex; gap: 10px; }
+.sw { text-align: center; }
+.sw-b { width: 48px; height: 48px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.sw-n { font-size: 9px; color: var(--ink3); margin-top: 5px; }
+.voice-pills { display: flex; flex-wrap: wrap; gap: 7px; }
+.vpill { padding: 5px 12px; border-radius: 100px; background: rgba(255,255,255,0.8); border: 1px solid var(--border); font-size: 11px; color: var(--ink3); font-weight: 500; }
+.type-card { padding: 18px 20px; border-radius: 12px; background: rgba(255,255,255,0.75); border: 1px solid rgba(255,255,255,0.95); }
+.type-lbl { font-size: 9px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; color: var(--ink3); margin-bottom: 8px; }
+.type-display { font-size: 28px; font-weight: 800; letter-spacing: -0.5px; color: var(--ink); }
+.type-body { font-size: 14px; color: var(--ink3); line-height: 1.6; }
+.essence-card {
+  padding: 18px 20px; border-radius: 12px;
+  background: linear-gradient(135deg, rgba(108,99,255,0.07), rgba(56,189,248,0.07));
+  border: 1px solid rgba(108,99,255,0.15);
+}
+.essence-text { font-size: 16px; font-style: italic; color: var(--ink2); line-height: 1.5; }
+.essence-text span { background: linear-gradient(135deg, var(--p1), var(--p3)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-style: normal; font-weight: 700; }
+
+/* ════════════════════════
+   SLIDE 6 — PLATFORMS
+════════════════════════ */
+.platforms-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; flex: 1; }
+.plat-card {
+  padding: 22px; border-radius: 16px;
+  background: rgba(255,255,255,0.75); border: 1px solid rgba(255,255,255,0.95);
+  box-shadow: 0 4px 16px rgba(108,99,255,0.06);
+  display: flex; gap: 16px; align-items: flex-start;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.plat-card:hover { box-shadow: 0 8px 28px rgba(108,99,255,0.12); transform: translateY(-2px); }
+.plat-icon-box {
+  width: 46px; height: 46px; border-radius: 12px; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center; font-size: 22px;
+}
+.plat-lbl { font-size: 10px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: var(--p1); margin-bottom: 4px; }
+.plat-title { font-size: 14px; font-weight: 600; color: var(--ink); margin-bottom: 4px; line-height: 1.35; }
+.plat-url { font-size: 11px; color: var(--ink3); }
+.plat-badge { display: inline-flex; align-items: center; gap: 4px; margin-top: 10px; padding: 3px 10px; border-radius: 100px; font-size: 9px; font-weight: 600; letter-spacing: 1px; }
+
+/* ════════════════════════
+   SLIDE 7 — STORY
+════════════════════════ */
+.story-layout { display: grid; grid-template-columns: 3fr 2fr; gap: 24px; flex: 1; }
+.story-left { display: flex; flex-direction: column; justify-content: center; }
+.fw-badge {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: rgba(108,99,255,0.1); border: 1px solid rgba(108,99,255,0.2);
+  border-radius: 100px; padding: 5px 14px; margin-bottom: 16px; width: fit-content;
+  font-size: 11px; font-weight: 600; color: var(--p1);
+}
+.story-text { font-size: clamp(13px, 1.4vw, 15px); color: var(--ink3); line-height: 1.8; }
+.story-text p { margin-bottom: 14px; }
+.story-text strong { color: var(--ink2); font-weight: 600; }
+.story-text .grd { background: linear-gradient(135deg, var(--p1), var(--p3)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 600; }
+.pull-quote {
+  padding: 18px 20px; border-radius: 12px; margin: 16px 0;
+  background: linear-gradient(135deg, rgba(108,99,255,0.07), rgba(56,189,248,0.07));
+  border-left: 3px solid var(--p1);
+  font-size: clamp(14px, 1.8vw, 18px); font-style: italic; color: var(--ink2); line-height: 1.5;
+}
+
+.arc-sidebar { display: flex; flex-direction: column; justify-content: center; gap: 4px; }
+.arc-item {
+  padding: 16px; border-radius: 12px;
+  background: rgba(255,255,255,0.7); border: 1px solid rgba(255,255,255,0.95);
+  display: flex; gap: 12px; align-items: flex-start;
+}
+.arc-num {
+  width: 28px; height: 28px; border-radius: 8px; flex-shrink: 0;
+  background: linear-gradient(135deg, var(--p1), var(--p2));
+  display: flex; align-items: center; justify-content: center;
+  font-size: 11px; font-weight: 800; color: #fff;
+}
+.arc-lbl { font-size: 10px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: var(--p1); margin-bottom: 3px; }
+.arc-txt { font-size: 11px; color: var(--ink3); line-height: 1.55; }
+
+/* ════════════════════════
+   SLIDE 8 — MADISON
+════════════════════════ */
+.demo-layout { display: flex; flex-direction: column; gap: 16px; flex: 1; }
+.demo-top-row { display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; }
+.meth-card {
+  padding: 16px 18px; border-radius: 12px;
+  background: linear-gradient(135deg, rgba(108,99,255,0.07), rgba(56,189,248,0.07));
+  border: 1px solid rgba(108,99,255,0.15); max-width: 340px;
+}
+.meth-lbl { font-size: 10px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: var(--p1); margin-bottom: 6px; }
+.meth-t { font-size: 12px; color: var(--ink3); line-height: 1.65; }
+
+.pipeline {
+  display: flex; align-items: stretch; border-radius: 12px; overflow: hidden;
+  border: 1px solid var(--border2); background: rgba(255,255,255,0.5);
+}
+.pnode {
+  flex: 1; text-align: center; padding: 16px 8px;
+  border-right: 1px solid var(--border2);
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px;
+}
+.pnode:last-child { border-right: none; }
+.pnode.hi { background: linear-gradient(135deg, rgba(108,99,255,0.08), rgba(56,189,248,0.08)); }
+.pn-i { font-size: 20px; }
+.pn-n { font-size: 11px; font-weight: 600; color: var(--ink2); }
+.pn-s { font-size: 9px; color: var(--ink3); }
+
+.metrics-row { display: grid; grid-template-columns: repeat(4,1fr); gap: 12px; }
+.met {
+  padding: 20px 12px; text-align: center; border-radius: 14px;
+  background: rgba(255,255,255,0.8); border: 1px solid rgba(255,255,255,0.95);
+  box-shadow: 0 4px 16px rgba(108,99,255,0.07);
+}
+.met-v { font-size: clamp(28px, 4vw, 48px); font-weight: 800; letter-spacing: -1.5px; line-height: 1; background: linear-gradient(135deg, var(--p1), var(--p3)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.met-l { font-size: 11px; color: var(--ink3); margin-top: 5px; line-height: 1.4; }
+.demo-cue {
+  padding: 12px 18px; border-radius: 10px; text-align: center;
+  background: linear-gradient(135deg, rgba(16,185,129,0.08), rgba(56,189,248,0.08));
+  border: 1px solid rgba(16,185,129,0.2);
+  font-size: 12px; color: var(--g1); font-weight: 500;
+}
+
+/* ════════════════════════
+   SLIDE 9 — LIVE PRESENCE
+════════════════════════ */
+.live-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; flex: 1; }
+.live-card {
+  padding: 22px; border-radius: 16px;
+  background: rgba(255,255,255,0.75); border: 1px solid rgba(255,255,255,0.95);
+  box-shadow: 0 4px 16px rgba(108,99,255,0.06);
+  display: flex; gap: 14px; align-items: flex-start;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.live-card:hover { box-shadow: 0 8px 28px rgba(108,99,255,0.12); transform: translateY(-2px); }
+.live-icon { font-size: 26px; flex-shrink: 0; }
+.live-lbl { font-size: 10px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: var(--p1); margin-bottom: 4px; }
+.live-title { font-size: 14px; font-weight: 600; color: var(--ink); margin-bottom: 4px; line-height: 1.35; }
+.live-url { font-size: 11px; color: var(--ink3); }
+.live-badge { display: inline-flex; align-items: center; gap: 4px; margin-top: 8px; padding: 3px 10px; border-radius: 100px; font-size: 9px; font-weight: 600; letter-spacing: 1px; background: rgba(16,185,129,0.1); color: var(--g1); }
+.conn-bar {
+  padding: 14px 20px; border-radius: 12px; margin-top: 4px;
+  background: linear-gradient(135deg, rgba(108,99,255,0.07), rgba(56,189,248,0.07));
+  border: 1px solid rgba(108,99,255,0.15);
+  display: flex; align-items: center; gap: 14px;
+  font-size: 13px; color: var(--ink3); font-style: italic;
+}
+.conn-bar .arrow { font-size: 20px; background: linear-gradient(135deg, var(--p1), var(--p3)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+
+/* ════════════════════════
+   SLIDE 10 — CLOSE
+════════════════════════ */
+#s10 .slide-inner { justify-content: space-between; }
+.close-body { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; flex: 1; align-items: center; }
+.close-left { display: flex; flex-direction: column; justify-content: center; }
+.close-big {
+  font-size: clamp(60px, 10vw, 110px); font-weight: 800; line-height: 0.9;
+  letter-spacing: -3px; color: var(--ink); margin-bottom: 28px;
+}
+.close-big .grad { background: linear-gradient(135deg, var(--p1), var(--p2), var(--p3)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: block; }
+.close-q { font-size: clamp(14px, 1.8vw, 18px); font-style: italic; color: var(--ink3); line-height: 1.6; max-width: 400px; margin-bottom: 28px; }
+.close-q span { background: linear-gradient(135deg, var(--p1), var(--p3)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-style: normal; font-weight: 700; }
+.close-contact { font-size: 13px; color: var(--ink3); line-height: 2; }
+.close-contact a { background: linear-gradient(135deg, var(--p1), var(--p3)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 600; text-decoration: none; }
+.close-right { display: flex; flex-direction: column; gap: 12px; }
+.close-col {
+  padding: 18px 20px; border-radius: 14px;
+  background: rgba(255,255,255,0.75); border: 1px solid rgba(255,255,255,0.95);
+}
+.close-col-lbl { font-size: 10px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; color: var(--p1); margin-bottom: 8px; }
+.close-col-items { font-size: 12px; color: var(--ink3); line-height: 2; }
+.close-col-items strong { color: var(--ink2); font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="mesh"></div>
+<div class="deck" id="deck">
+
+<!-- ══════ S1 — TITLE ══════ -->
+<div class="slide active" id="s1">
+<div class="slide-inner">
+  <div class="top-bar">
+    <div class="logo-pill"><div class="logo-dot">SK</div><div class="logo-name">Shreya Kini</div></div>
+    <div style="display:flex;gap:10px;align-items:center;"><div class="section-chip">INFO 7375 · Final Presentation</div><div class="slide-num-chip">01 / 12</div></div>
+  </div>
+  <div class="s1-body">
+    <div class="s1-left">
+      <div class="s1-path-badge"><div class="dot"></div>Path A — Personal Brand</div>
+      <div class="s1-name">Shreya<br><span class="grad">Kini.</span></div>
+      <div class="s1-tagline"><strong>Full-Stack Software Engineer</strong> specializing in production AI systems and enterprise integration — with receipts.</div>
+      <div class="s1-quote">"I'm Shreya. I've built a brand for myself as a full-stack engineer and AI systems builder, featuring Madison as proof of what I ship."</div>
+    </div>
+    <div class="s1-right">
+      <div class="s1-stat">
+        <div class="s1-stat-orb" style="background:linear-gradient(135deg,rgba(108,99,255,0.12),rgba(108,99,255,0.06));">💰</div>
+        <div><div class="s1-stat-val" style="background:linear-gradient(135deg,var(--p1),var(--p2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;">$150K+</div><div class="s1-stat-lbl">Saved at Panasonic via SAP BTP automation</div></div>
+      </div>
+      <div class="s1-stat">
+        <div class="s1-stat-orb" style="background:linear-gradient(135deg,rgba(56,189,248,0.12),rgba(56,189,248,0.06));">⚡</div>
+        <div><div class="s1-stat-val" style="background:linear-gradient(135deg,var(--p1),var(--p3));-webkit-background-clip:text;-webkit-text-fill-color:transparent;">100:1</div><div class="s1-stat-lbl">ROI on Madison AI classification pipeline</div></div>
+      </div>
+      <div class="s1-stat">
+        <div class="s1-stat-orb" style="background:linear-gradient(135deg,rgba(16,185,129,0.12),rgba(16,185,129,0.06));">📈</div>
+        <div><div class="s1-stat-val" style="background:linear-gradient(135deg,var(--g1),var(--p3));-webkit-background-clip:text;-webkit-text-fill-color:transparent;">85%</div><div class="s1-stat-lbl">Reduction in debugging time — production</div></div>
+      </div>
+      <div class="s1-meta">MS Computer Software Engineering · Northeastern University · May 2026</div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ══════ S2 — PERSONAS ══════ -->
+<div class="slide" id="s2">
+<div class="slide-inner">
+  <div class="top-bar">
+    <div class="logo-pill"><div class="logo-dot">SK</div><div class="logo-name">Shreya Kini</div></div>
+    <div style="display:flex;gap:10px;"><div class="section-chip">Brand Strategy</div><div class="slide-num-chip">02 / 12</div></div>
+  </div>
+  <div class="label">Who I Build For</div>
+  <div class="h2" style="margin-bottom:20px;">Three People I Need to <span>Convince</span></div>
+  <div class="persona-grid">
+    <div class="pcard">
+      <div class="pcard-top"><div class="avatar" style="background:linear-gradient(135deg,var(--p1),var(--p2));">S</div><div><div class="pcard-role">Engineering Manager</div><div class="pcard-name">Sarah Chen</div></div></div>
+      <div class="pcard-quote">"I don't need another specialist. I need someone who can actually <strong>ship.</strong>"</div>
+      <div class="pcard-fear">Fears onboarding risk and broken timelines. Needs end-to-end proof of delivery.</div>
+    </div>
+    <div class="pcard">
+      <div class="pcard-top"><div class="avatar" style="background:linear-gradient(135deg,var(--p3),var(--p2));">R</div><div><div class="pcard-role">Technical Recruiter</div><div class="pcard-name">Raj Patel</div></div></div>
+      <div class="pcard-quote">"Can I <strong>defend this candidate</strong> in front of the hiring panel?"</div>
+      <div class="pcard-fear">Needs a clear, airtight story. Gaps in narrative cost him credibility with the panel.</div>
+    </div>
+    <div class="pcard">
+      <div class="pcard-top"><div class="avatar" style="background:linear-gradient(135deg,var(--g1),var(--p3));">M</div><div><div class="pcard-role">Senior Staff Engineer</div><div class="pcard-name">Mark Alvarez</div></div></div>
+      <div class="pcard-quote">"Does this person understand <strong>why systems fail?</strong>"</div>
+      <div class="pcard-fear">Sees through surface-level work immediately. Wants systems thinking, not hype.</div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ══════ S3 — UVP ══════ -->
+<div class="slide" id="s3">
+<div class="slide-inner">
+  <div class="top-bar">
+    <div class="logo-pill"><div class="logo-dot">SK</div><div class="logo-name">Shreya Kini</div></div>
+    <div style="display:flex;gap:10px;"><div class="section-chip">Brand Strategy</div><div class="slide-num-chip">03 / 12</div></div>
+  </div>
+  <div class="s3-grid">
+    <div class="s3-left">
+      <div class="label">Unique Value Proposition</div>
+      <div class="h2" style="margin-bottom:0;">The <span>Positioning</span></div>
+      <div class="uvp-card"><div class="uvp-text">"The rare engineer who bridges <strong>full-stack development</strong>, <strong>production AI systems</strong>, and <strong>enterprise integration</strong> — and can prove every claim with a number."</div></div>
+      <div class="pillars">
+        <div class="pillar"><div class="pillar-icon">⚙️</div><div><div class="pillar-h">Systems Thinker</div><div class="pillar-p">I don't patch symptoms. I ask: what would make this problem impossible to repeat?</div></div></div>
+        <div class="pillar"><div class="pillar-icon">🔗</div><div><div class="pillar-h">Full-Stack to Enterprise</div><div class="pillar-p">React → CAP → S/4HANA. Shipped in production at every layer of that stack.</div></div></div>
+        <div class="pillar"><div class="pillar-icon">📊</div><div><div class="pillar-h">Proof Over Promise</div><div class="pillar-p">Every claim has a number. $150K+ saved. 100:1 ROI. 85% time reduction.</div></div></div>
+      </div>
+    </div>
+    <div class="s3-right">
+      <div class="arch-card"><div class="arch-lbl">Brand Archetype</div><div class="arch-name">Sage + Creator</div><div class="arch-desc">Evidence-first thinking. Systems precision. Creative enough to build something nobody asked for — and prove it works.</div></div>
+      <div style="padding:16px 18px;border-radius:12px;background:rgba(255,255,255,0.75);border:1px solid rgba(255,255,255,0.95);">
+        <div style="font-size:10px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--p1);margin-bottom:8px;">Career Positioning Strategy</div>
+        <div style="font-size:12px;color:var(--ink3);line-height:1.9;">🎯 &nbsp;Targeting <strong style="color:var(--ink2);">Full-Stack &amp; AI Engineering roles</strong><br>🏢 &nbsp;Google · Salesforce · SAP consulting firms<br>📍 &nbsp;US (OPT) · Canada · Germany · UAE<br>⏱️ &nbsp;Available May 2026 — actively interviewing</div>
+      </div>
+      <div class="proof-grid">
+        <div class="proof-box"><div class="proof-val">$150K+</div><div class="proof-lbl">Panasonic savings</div></div>
+        <div class="proof-box"><div class="proof-val">100:1</div><div class="proof-lbl">Madison ROI</div></div>
+        <div class="proof-box"><div class="proof-val">85%</div><div class="proof-lbl">Debug time cut</div></div>
+        <div class="proof-box"><div class="proof-val">150+</div><div class="proof-lbl">Issues/batch</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ══════ S4 — COMPETITIVE ══════ -->
+<div class="slide" id="s4">
+<div class="slide-inner">
+  <div class="top-bar">
+    <div class="logo-pill"><div class="logo-dot">SK</div><div class="logo-name">Shreya Kini</div></div>
+    <div style="display:flex;gap:10px;"><div class="section-chip">Brand Strategy</div><div class="slide-num-chip">04 / 12</div></div>
+  </div>
+  <div class="label">Competitive Landscape</div>
+  <div class="h2" style="margin-bottom:20px;">Where I <span>Stand</span></div>
+  <div class="comp-layout">
+    <div class="matrix-card">
+      <div class="mat"><div class="mat-b">
+        <div class="axh"></div><div class="axv"></div>
+        <div class="axl t">Proactive ↑</div><div class="axl b">↓ Reactive</div>
+        <div class="axl l">Single</div><div class="axl r">Multi ↗</div>
+        <div class="mpt" style="left:76%;top:20%;"><div class="mptd me"></div><div class="mptl me">SK · Madison</div></div>
+        <div class="mpt" style="left:24%;top:35%;"><div class="mptd c"></div><div class="mptl">Sentry</div></div>
+        <div class="mpt" style="left:65%;top:62%;"><div class="mptd c"></div><div class="mptl">Datadog</div></div>
+        <div class="mpt" style="left:30%;top:72%;"><div class="mptd c"></div><div class="mptl">New Relic</div></div>
+        <div class="mpt" style="left:80%;top:54%;"><div class="mptd c"></div><div class="mptl">Linear</div></div>
+      </div></div>
+    </div>
+    <div class="diffs">
+      <div class="diff-card"><div class="diff-n">01</div><div class="diff-t">Most tools are <strong>reactive</strong>. I build systems that prevent the problem, not just surface it.</div></div>
+      <div class="diff-card"><div class="diff-n">02</div><div class="diff-t">Most candidates have enterprise <strong>or</strong> startup experience. I have both — SAP BTP and n8n + Groq.</div></div>
+      <div class="diff-card"><div class="diff-n">03</div><div class="diff-t">Most portfolios have projects. Mine has <strong>production deployments with dollar figures attached</strong>.</div></div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ══════ S5 — VISUAL IDENTITY ══════ -->
+<div class="slide" id="s5">
+<div class="slide-inner">
+  <div class="top-bar">
+    <div class="logo-pill"><div class="logo-dot">SK</div><div class="logo-name">Shreya Kini</div></div>
+    <div style="display:flex;gap:10px;"><div class="section-chip">Visual Identity</div><div class="slide-num-chip">05 / 12</div></div>
+  </div>
+  <div class="label">Brand System</div>
+  <div class="h2" style="margin-bottom:20px;">The Visual <span>Identity</span></div>
+  <div class="identity-layout">
+    <div class="id-left">
+      <div>
+        <div class="id-lbl">Logo</div>
+        <div style="display:flex;align-items:center;gap:18px;margin-bottom:4px;">
+          <div class="logo-display">SK</div>
+          <div class="body" style="font-size:12px;">Circuit-board geometry.<br>Sage + Creator archetype made visible.<br>Precision meets creativity.</div>
+        </div>
+      </div>
+      <div>
+        <div class="id-lbl">Color Palette</div>
+        <div class="swatches">
+          <div class="sw"><div class="sw-b" style="background:linear-gradient(135deg,#6C63FF,#A78BFA);"></div><div class="sw-n">Violet</div></div>
+          <div class="sw"><div class="sw-b" style="background:linear-gradient(135deg,#38BDF8,#6C63FF);"></div><div class="sw-n">Sky</div></div>
+          <div class="sw"><div class="sw-b" style="background:linear-gradient(135deg,#10B981,#38BDF8);"></div><div class="sw-n">Emerald</div></div>
+          <div class="sw"><div class="sw-b" style="background:#F8F7FF;border:1px solid var(--border);"></div><div class="sw-n">Off-white</div></div>
+        </div>
+      </div>
+      <div>
+        <div class="id-lbl">Brand Voice</div>
+        <div class="voice-pills">
+          <div class="vpill">Direct</div><div class="vpill">Evidence-first</div>
+          <div class="vpill">Systems-aware</div><div class="vpill">No fluff</div><div class="vpill">Warm</div>
+        </div>
+      </div>
+    </div>
+    <div class="id-right">
+      <div class="type-card"><div class="type-lbl">Plus Jakarta Sans — Display</div><div class="type-display">Ship it.</div></div>
+      <div class="type-card"><div class="type-lbl">Plus Jakarta Sans — Body</div><div class="type-body" style="font-style:italic;color:var(--ink3);">"The kind of engineer you call when it needs to be done right — and done once."</div></div>
+      <div class="essence-card"><div class="type-lbl" style="margin-bottom:8px;">Brand Essence</div><div class="essence-text">"What would make this problem <span>impossible to repeat?</span>"</div></div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ══════ S6 — PLATFORMS ══════ -->
+<div class="slide" id="s6">
+<div class="slide-inner">
+  <div class="top-bar">
+    <div class="logo-pill"><div class="logo-dot">SK</div><div class="logo-name">Shreya Kini</div></div>
+    <div style="display:flex;gap:10px;"><div class="section-chip">Visual Identity</div><div class="slide-num-chip">06 / 12</div></div>
+  </div>
+  <div class="label">Digital Presence</div>
+  <div class="h2" style="margin-bottom:20px;">The Brand Is <span>Consistent Everywhere</span></div>
+  <div class="platforms-grid">
+    <div class="plat-card"><div class="plat-icon-box" style="background:linear-gradient(135deg,rgba(108,99,255,0.1),rgba(56,189,248,0.1));">🌐</div><div><div class="plat-lbl">Portfolio</div><div class="plat-title">Shreya Kini — Software Engineer</div><div class="plat-url">v0-personal-portfolio-website-blue-five-56.vercel.app</div><div class="plat-badge badge-green">✦ Live</div></div></div>
+    <div class="plat-card"><div class="plat-icon-box" style="background:linear-gradient(135deg,rgba(245,158,11,0.1),rgba(244,63,94,0.1));">✍️</div><div><div class="plat-lbl">Substack</div><div class="plat-title">The Difference Between an AI Demo and an AI System</div><div class="plat-url">shreyakini1.substack.com</div><div class="plat-badge badge-purple">✦ Published</div></div></div>
+    <div class="plat-card"><div class="plat-icon-box" style="background:linear-gradient(135deg,rgba(16,185,129,0.1),rgba(56,189,248,0.1));">📝</div><div><div class="plat-lbl">Medium</div><div class="plat-title">I Stopped Fixing Bugs and Started Eliminating Them</div><div class="plat-url">medium.com/@shreyakini</div><div class="plat-badge badge-green">✦ Published</div></div></div>
+    <div class="plat-card"><div class="plat-icon-box" style="background:linear-gradient(135deg,rgba(56,189,248,0.1),rgba(108,99,255,0.1));">💼</div><div><div class="plat-lbl">LinkedIn</div><div class="plat-title">Full-Stack Engineer · AI Systems · Enterprise Integration</div><div class="plat-url">linkedin.com/in/shreyakini25</div><div class="plat-badge badge-blue">✦ Optimized</div></div></div>
+  </div>
+</div>
+</div>
+
+<!-- ══════ S7 — SOCIAL MEDIA POSTS ══════ -->
+<div class="slide" id="s7">
+<div class="slide-inner">
+  <div class="top-bar">
+    <div class="logo-pill"><div class="logo-dot">SK</div><div class="logo-name">Shreya Kini</div></div>
+    <div style="display:flex;gap:10px;"><div class="section-chip">Visual Identity</div><div class="slide-num-chip">07 / 12</div></div>
+  </div>
+  <div class="label">Brand Voice in Action</div>
+  <div class="h2" style="margin-bottom:20px;">Social Media <span>Posts</span></div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;flex:1;">
+
+    <!-- Post 1 — LinkedIn -->
+    <div class="glass" style="padding:20px;border-radius:16px;display:flex;flex-direction:column;gap:12px;">
+      <div style="display:flex;align-items:center;gap:10px;">
+        <div style="width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--p1),var(--p2));display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;color:#fff;">SK</div>
+        <div><div style="font-size:13px;font-weight:700;color:var(--ink);">Shreya Kini</div><div style="font-size:10px;color:var(--ink3);">LinkedIn · 💼</div></div>
+      </div>
+      <div style="font-size:12px;color:var(--ink2);line-height:1.75;border-left:3px solid var(--p1);padding-left:12px;">
+        It was 11 PM on a Tuesday.<br>I'd spent 3 weeks building an AI tool.<br>It worked perfectly on my machine.<br><br>Then it hit a real workflow. It fell apart in 10 minutes.<br><br>That night I learned the difference between an AI demo and an AI system.
+      </div>
+      <div style="font-size:11px;color:var(--p1);font-weight:600;">→ lnkd.in/etaNCiJh</div>
+      <div style="font-size:10px;color:var(--ink3);padding-top:8px;border-top:1px solid var(--border2);">31 impressions · Brand voice: Direct, story-led</div>
+    </div>
+
+    <!-- Post 2 — Substack -->
+    <div class="glass" style="padding:20px;border-radius:16px;display:flex;flex-direction:column;gap:12px;">
+      <div style="display:flex;align-items:center;gap:10px;">
+        <div style="width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,#F59E0B,#F43F5E);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;color:#fff;">SK</div>
+        <div><div style="font-size:13px;font-weight:700;color:var(--ink);">Shreya Kini</div><div style="font-size:10px;color:var(--ink3);">Substack · ✍️</div></div>
+      </div>
+      <div style="font-size:12px;color:var(--ink2);line-height:1.75;border-left:3px solid #F59E0B;padding-left:12px;">
+        <strong>The Difference Between an AI Demo and an AI System</strong><br><br>Anyone can ship a demo in a weekend. Almost nobody ships a system that works on Monday.<br><br>Here's what actually separates the two — and why it changes how I build everything.
+      </div>
+      <div style="font-size:10px;color:var(--ink3);padding-top:8px;border-top:1px solid var(--border2);">Published · shreyakini1.substack.com</div>
+    </div>
+
+    <!-- Post 3 — Brand Visual -->
+    <div class="glass" style="padding:20px;border-radius:16px;display:flex;flex-direction:column;gap:12px;">
+      <div style="display:flex;align-items:center;gap:10px;">
+        <div style="width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--g1),var(--p3));display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;color:#fff;">SK</div>
+        <div><div style="font-size:13px;font-weight:700;color:var(--ink);">Shreya Kini</div><div style="font-size:10px;color:var(--ink3);">LinkedIn · Brand Visual</div></div>
+      </div>
+      <div style="background:linear-gradient(135deg,var(--ink),var(--ink2));border-radius:10px;padding:16px;text-align:center;">
+        <div style="font-size:11px;font-weight:800;color:var(--p2);letter-spacing:2px;margin-bottom:6px;">SK</div>
+        <div style="font-size:13px;font-weight:700;color:#fff;line-height:1.4;">Most engineers show projects.<br>I show systems that already<br>paid for themselves.</div>
+        <div style="font-size:10px;color:rgba(255,255,255,0.5);margin-top:8px;">Full-Stack · AI Systems · Enterprise Integration</div>
+      </div>
+      <div style="font-size:10px;color:var(--ink3);padding-top:4px;border-top:1px solid var(--border2);">Brand visual · Consistent palette + voice ✓</div>
+    </div>
+
+  </div>
+</div>
+</div>
+
+<!-- ══════ S8 — BRAND STORY 1 ══════ -->
+<div class="slide" id="s8">
+<div class="slide-inner">
+  <div class="top-bar">
+    <div class="logo-pill"><div class="logo-dot">SK</div><div class="logo-name">Shreya Kini</div></div>
+    <div style="display:flex;gap:10px;"><div class="section-chip">Brand Storytelling · 3 min</div><div class="slide-num-chip">08 / 12</div></div>
+  </div>
+  <div class="story-layout">
+    <div class="story-left">
+      <div class="fw-badge">📖 Story 1 of 2 &nbsp;·&nbsp; Hero's Journey</div>
+      <div class="h2" style="margin-bottom:16px;">The Engineer Who Needed a <span>Better Question</span></div>
+      <div class="story-text">
+        <p>At Capgemini, I was a <strong>solid engineer</strong>. I shipped Android apps used by 10,000+ people. But something kept bothering me — my team spent six hours debugging a bug that had already been solved three months earlier. Nobody documented it. Nothing prevented it from coming back.</p>
+        <div class="pull-quote">"I didn't just change jobs. I changed what I believed engineering was for."</div>
+        <p>I came to Northeastern with one question I couldn't shake: <span class="grd">what if the system itself remembered?</span> Then came Panasonic — an SAP BTP stack I'd never touched, a real deadline, a workflow that had to talk to S/4HANA. I had to think in systems, not components.</p>
+        <p>That workflow saved <span class="grd">$150,000+</span>. And the question became Madison — <span class="grd">150+ issues per batch, 100:1 ROI</span>. <strong>"What would make this problem impossible to repeat?"</strong> That question is my brand.</p>
+      </div>
+    </div>
+    <div class="arc-sidebar">
+      <div class="arc-item"><div class="arc-num">1</div><div><div class="arc-lbl">Ordinary World</div><div class="arc-txt">Capgemini — solid engineer, but re-debugging the same bugs every sprint</div></div></div>
+      <div class="arc-item"><div class="arc-num">2</div><div><div class="arc-lbl">The Call</div><div class="arc-txt">MS at Northeastern. Panasonic. Unfamiliar stack. Real deadline.</div></div></div>
+      <div class="arc-item"><div class="arc-num">3</div><div><div class="arc-lbl">Transformation</div><div class="arc-txt">Stopped thinking in components. Started thinking in systems.</div></div></div>
+      <div class="arc-item"><div class="arc-num">4</div><div><div class="arc-lbl">Return with Wisdom</div><div class="arc-txt">$150K+ saved. 100:1 ROI. The question became the brand.</div></div></div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ══════ S9 — BRAND STORY 2 ══════ -->
+<div class="slide" id="s9">
+<div class="slide-inner">
+  <div class="top-bar">
+    <div class="logo-pill"><div class="logo-dot">SK</div><div class="logo-name">Shreya Kini</div></div>
+    <div style="display:flex;gap:10px;"><div class="section-chip">Brand Storytelling · 3 min</div><div class="slide-num-chip">09 / 12</div></div>
+  </div>
+  <div class="story-layout">
+    <div class="story-left">
+      <div class="fw-badge">📈 Story 2 of 2 &nbsp;·&nbsp; Rags to Riches</div>
+      <div class="h2" style="margin-bottom:16px;">From <span>Zero to Production</span> in One Semester</div>
+      <div class="story-text">
+        <p>I started my MS at Northeastern knowing Java and ABAP. I did <strong>not</strong> know React, Node.js, n8n, or how to deploy an AI pipeline. My first semester felt like reading in a second language — technically correct but exhausting.</p>
+        <div class="pull-quote">"I wasn't behind. I was at the start of a different kind of education."</div>
+        <p>The Panasonic internship changed everything. A production SAP BTP stack, a two-stage invoice approval workflow, OAuth, role-based access, S/4HANA posting. No tutorials for this. Just <span class="grd">real deadlines and real consequences</span>. I shipped it. <span class="grd">$150K+ saved.</span></p>
+        <p>Then I turned that same urgency into Madison — <span class="grd">built in weeks, deployed in production, 100:1 ROI</span>. I came in with almost nothing. I'm leaving with two production systems, a live portfolio, published articles, and a brand that proves every claim.</p>
+      </div>
+    </div>
+    <div class="arc-sidebar">
+      <div class="arc-item"><div class="arc-num" style="background:linear-gradient(135deg,var(--g1),var(--p3));">1</div><div><div class="arc-lbl">The Starting Point</div><div class="arc-txt">MS student with enterprise background — but unfamiliar with modern AI stack</div></div></div>
+      <div class="arc-item"><div class="arc-num" style="background:linear-gradient(135deg,var(--g1),var(--p3));">2</div><div><div class="arc-lbl">The Struggle</div><div class="arc-txt">New stack, new tools, real deadlines. No safety net at Panasonic.</div></div></div>
+      <div class="arc-item"><div class="arc-num" style="background:linear-gradient(135deg,var(--g1),var(--p3));">3</div><div><div class="arc-lbl">The Rise</div><div class="arc-txt">Shipped SAP BTP automation. Built Madison AI pipeline from scratch.</div></div></div>
+      <div class="arc-item"><div class="arc-num" style="background:linear-gradient(135deg,var(--g1),var(--p3));">4</div><div><div class="arc-lbl">The Riches</div><div class="arc-txt">Two production systems. $150K+ impact. 100:1 ROI. A brand with receipts.</div></div></div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ══════ S8 — MADISON ══════ -->
+<div class="slide" id="s10">
+<div class="slide-inner">
+  <div class="top-bar">
+    <div class="logo-pill"><div class="logo-dot">SK</div><div class="logo-name">Shreya Kini</div></div>
+    <div style="display:flex;gap:10px;"><div class="section-chip">Live Demo · 4 min</div><div class="slide-num-chip">10 / 12</div></div>
+  </div>
+  <div class="label">Flagship Project — Path A: How Madison builds my brand</div>
+  <div class="demo-layout">
+    <div class="demo-top-row">
+      <div><div class="h2">Madison — From Demo to <span>Production System</span></div><div class="body" style="margin-top:6px;max-width:420px;">Madison <em>is</em> my personal brand in action. It's the proof that I don't just talk about systems thinking — I ship it. Every recruiter who sees this tool understands my engineering philosophy in 4 minutes.</div></div>
+      <div class="meth-card"><div class="meth-lbl">AI Methodology</div><div class="meth-t">Multi-source ingestion → LLM classification → structured output routing. Groq Llama 3.3 70B for speed + depth. n8n as orchestration — not glue code.</div></div>
+    </div>
+    <div class="pipeline">
+      <div class="pnode"><div class="pn-i">🐙</div><div class="pn-n">GitHub</div><div class="pn-s">Issues</div></div>
+      <div class="pnode"><div class="pn-i">📚</div><div class="pn-n">Stack Overflow</div><div class="pn-s">Threads</div></div>
+      <div class="pnode"><div class="pn-i">💬</div><div class="pn-n">Reddit</div><div class="pn-s">Dev forums</div></div>
+      <div class="pnode hi"><div class="pn-i">⚡</div><div class="pn-n">n8n Pipeline</div><div class="pn-s">Orchestration</div></div>
+      <div class="pnode hi"><div class="pn-i">🤖</div><div class="pn-n">Groq Llama 3.3</div><div class="pn-s">70B classifier</div></div>
+      <div class="pnode"><div class="pn-i">📤</div><div class="pn-n">10 Formats</div><div class="pn-s">Output</div></div>
+    </div>
+    <div class="metrics-row">
+      <div class="met"><div class="met-v">150+</div><div class="met-l">Issues per batch</div></div>
+      <div class="met"><div class="met-v">85%</div><div class="met-l">Debug time eliminated</div></div>
+      <div class="met"><div class="met-v">100:1</div><div class="met-l">ROI</div></div>
+      <div class="met"><div class="met-v">100%</div><div class="met-l">Classification accuracy</div></div>
+    </div>
+    <div class="demo-cue">⬆ Switch to live demo tab now · Backup screenshots ready if needed</div>
+  </div>
+</div>
+</div>
+
+<!-- ══════ S9 — LIVE PRESENCE ══════ -->
+<div class="slide" id="s11">
+<div class="slide-inner">
+  <div class="top-bar">
+    <div class="logo-pill"><div class="logo-dot">SK</div><div class="logo-name">Shreya Kini</div></div>
+    <div style="display:flex;gap:10px;"><div class="section-chip">Execution</div><div class="slide-num-chip">11 / 12</div></div>
+  </div>
+  <div class="label">Everything connects — Strategy → Story → Demo</div>
+  <div class="h2" style="margin-bottom:20px;">The Brand Is <span>Live</span></div>
+  <div class="live-grid">
+    <div class="live-card"><div class="live-icon">🌐</div><div><div class="live-lbl">Portfolio</div><div class="live-title">Shreya Kini — Software Engineer</div><div class="live-url">v0-personal-portfolio-website-blue-five-56.vercel.app</div><div class="live-badge">✦ Live</div></div></div>
+    <div class="live-card"><div class="live-icon">✍️</div><div><div class="live-lbl">Substack</div><div class="live-title">The Difference Between an AI Demo and an AI System</div><div class="live-url">shreyakini1.substack.com</div><div class="live-badge">✦ Published</div></div></div>
+    <div class="live-card"><div class="live-icon">📝</div><div><div class="live-lbl">Medium</div><div class="live-title">I Stopped Fixing Bugs and Started Eliminating Them</div><div class="live-url">medium.com/@shreyakini</div><div class="live-badge">✦ Published</div></div></div>
+    <div class="live-card"><div class="live-icon">💼</div><div><div class="live-lbl">LinkedIn</div><div class="live-title">Full-Stack Engineer · AI Systems · Enterprise Integration</div><div class="live-url">linkedin.com/in/shreyakini25</div><div class="live-badge">✦ Active</div></div></div>
+  </div>
+  <div class="conn-bar"><div class="arrow">↗</div><div>Every touchpoint answers the same question: <em>why did you build this?</em> Your story answers why. Your strategy answers for whom. Your demo answers how.</div></div>
+</div>
+</div>
+
+<!-- ══════ S10 — CLOSE ══════ -->
+<div class="slide" id="s12">
+<div class="slide-inner">
+  <div class="top-bar">
+    <div class="logo-pill"><div class="logo-dot">SK</div><div class="logo-name">Shreya Kini</div></div>
+    <div style="display:flex;gap:10px;"><div class="section-chip">INFO 7375 · Branding & AI</div><div class="slide-num-chip">12 / 12</div></div>
+  </div>
+  <div class="close-body">
+    <div class="close-left">
+      <div class="close-big">Ship<span class="grad">it.</span></div>
+      <div class="close-q">"What would make this problem <span>impossible to repeat?</span>" — That question is the brand.</div>
+      <div class="close-contact"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="82e9ebecebacf1eaf0c2ecedf0f6eae7e3f1f6e7f0ecace7e6f7">[email&#160;protected]</a><br><a href="https://linkedin.com/in/shreyakini25">linkedin.com/in/shreyakini25</a><br><span style="font-size:11px;opacity:0.6;">Northeastern University · May 2026</span></div>
+    </div>
+    <div class="close-right">
+      <div class="close-col"><div class="close-col-lbl">Strategy</div><div class="close-col-items"><strong>UVP</strong> · Personas · Competitive Positioning · Sage + Creator Archetype</div></div>
+      <div class="close-col"><div class="close-col-lbl">Identity</div><div class="close-col-items"><strong>SK Circuit Logo</strong> · Gradient Palette · Plus Jakarta Sans</div></div>
+      <div class="close-col"><div class="close-col-lbl">Execution</div><div class="close-col-items"><strong>Live Portfolio</strong> · Substack + Medium published<br>Madison — 100:1 ROI in production<br>Panasonic — $150K+ impact</div></div>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+
+<button class="arr prev" onclick="go(-1)">&#8592;</button>
+<button class="arr next" onclick="go(1)">&#8594;</button>
+<div class="dots" id="dots"></div>
+
+<script>
+let cur=0;
+const slides=document.querySelectorAll('#deck > .slide');
+const dotsEl=document.getElementById('dots');
+slides.forEach((_,i)=>{
+  const d=document.createElement('div');
+  d.className='dot'+(i===0?' on':'');
+  d.onclick=()=>goTo(i);
+  dotsEl.appendChild(d);
+});
+function goTo(n){
+  slides[cur].classList.remove('active');
+  dotsEl.children[cur].classList.remove('on');
+  cur=(n+slides.length)%slides.length;
+  slides[cur].classList.add('active');
+  dotsEl.children[cur].classList.add('on');
+}
+function go(d){goTo(cur+d);}
+document.addEventListener('keydown',e=>{
+  if(['ArrowRight','ArrowDown',' '].includes(e.key)){e.preventDefault();go(1);}
+  if(['ArrowLeft','ArrowUp'].includes(e.key)){e.preventDefault();go(-1);}
+  if(e.key==='f'||e.key==='F'){
+    if(!document.fullscreenElement)document.documentElement.requestFullscreen();
+    else document.exitFullscreen();
+  }
+});
+let tx=null;
+document.addEventListener('touchstart',e=>tx=e.touches[0].clientX);
+document.addEventListener('touchend',e=>{
+  if(tx===null)return;
+  const d=tx-e.changedTouches[0].clientX;
+  if(Math.abs(d)>50)go(d>0?1:-1);
+  tx=null;
+});
+</script>

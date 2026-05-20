@@ -1,0 +1,15 @@
+# Hero image brief — Chapter 36: Case: AdverseAI — Drug Safety Intelligence as Public Infrastructure
+
+**Subject.** A schematic composition rendering the three-source integration as the central visual argument. From three labelled source columns at the upper edge — *FAERS · CADEC · PubMed* — three thin data-flow lines converge into a single normalization layer at the centre, then resolve into a single research-ready output card at the lower edge showing one drug name, a 1–5 severity score badge, and three small inline-citation markers. To the left of the output card, a small *Molecular Lens* logomark renders the brand identity at the hero level. The composition argues that the brand's entire architectural moat lives in the multi-source-integration step.
+
+**Mood.** Research-infrastructure-considered, clinically authoritative, quietly disciplined. The composition should feel like a well-designed academic-research-tool reference diagram rather than a marketing graphic. Restraint everywhere; the amber accent is reserved for the single severity-score badge.
+
+**Negative space for title overlay.** Reserve the upper third of the canvas for chapter title and case-tagline overlay. The three source columns sit at upper-centre, the normalization layer at mid-canvas, the single output card at the lower edge.
+
+**What the teaching image should make most visually prominent.** The *convergence of three sources into one normalization layer* — the eye should read the integration as the brand's central architectural commitment. The single severity-score badge in amber on the output card argues the configurable-threshold scoring discipline. The three inline-citation markers below the output card argue the *every data point traceable* commitment.
+
+**Palette.** Navy `#1B2A4A` ground; Teal `#0D7377` for the three source columns and primary line weight; Cyan `#5BC0BE` for the normalization-layer line drawing and secondary depth; Amber `#E8A838` exclusively on the single severity-score badge (the semantic-accent rule); Gray `#F0F4F5` for typography and any micro-text labels. Inter for body micro-type; the deck does not specify a heading typeface, so use a clean sans-serif for any display labels. No additional saturated colors.
+
+**Style references.** The reference-diagram register of *NEJM* feature-illustration figures; the considered restraint of *PLOS Computational Biology* schematic figures; the editorial precision of well-designed academic-research-software documentation pages. Avoid the saturated marketing register of generic AI-tool hero graphics and avoid stock medical imagery.
+
+**What to avoid.** No literal pill bottles, prescription pads, or pharmaceutical-product imagery. No FDA, NIH, or pharma-company brand marks. No GPT, OpenAI, or Anthropic logos. No human face or hand. No "AI brain" iconography. No motion blur or speed lines. No additional amber accents beyond the single severity-score badge. The three source columns, the normalization layer, the single output card with the severity badge and three inline-citation markers, and the Molecular Lens logomark are the entire composition.

@@ -1,0 +1,15 @@
+# Hero image brief — Chapter 28: Case: TriagePilot — Automate the Exhaustion, Not the Empathy
+
+**Subject.** A schematic composition rendering the multi-modal pipeline as the central visual argument: an incoming ticket card on the left containing two stacked elements (a small text-block representing customer-message content and a smaller image-thumbnail representing an attached screenshot), both feeding through a horizontal sequence of n8n-style routing nodes in the centre, terminating in a single labelled routing-destination card on the right reading *Tier 3 — Billing*. The routing-node sequence is rendered as discrete, inspectable squares connected by clear data-flow lines — visibly *deterministic*, visibly *auditable*.
+
+**Mood.** Enterprise-grade-tooling-precise. The composition should feel like a senior support engineer's runbook diagram rather than a marketing graphic — calibrated, observable, and quietly authoritative. The dark-mode register communicates *premium back-office tooling for buyers who care about audit trails*.
+
+**Negative space for title overlay.** Reserve the upper third or upper-left quadrant for chapter title and case-tagline overlay. The pipeline sits at the lower two-thirds, weighted across the canvas at small-to-medium scale. The TriagePilot wordmark appears once at very small scale below the routing-destination card.
+
+**What the teaching image should make most visually prominent.** The *visibility of the routing nodes* — each node is rendered as an inspectable square with a small label inside, arguing the *glass-box* commitment before any prose is read. A single Neon Lime accent appears on the audit-trail trace line connecting the input ticket to the output destination, naming the trace as the brand's central commitment.
+
+**Palette.** Canvas Slate (the deck names this as a deep premium-dark-mode ground; render as approximate `#1A1F2E` if the exact hex is not specified) for the dominant ground; Node Indigo for the routing-node card fills and primary line weight; Neon Lime exclusively on the single audit-trail trace line (the semantic-accent rule); Crisp white for typography on the cards. Inter for any non-monospace text; JetBrains Mono for the routing-node labels and the Tier-3-Billing destination text.
+
+**Style references.** The dark-mode runbook register of Datadog incident-response views; the schematic auditability of n8n's own product graphics stripped of brand mark; the considered restraint of Vercel's deployment-graph illustrations. Avoid the saturated marketing register of generic conversational-AI tool hero graphics.
+
+**What to avoid.** No literal Zendesk, Intercom, or HelpScout brand marks. No GPT, OpenAI, or n8n logos. No human face or hand. No customer-service stock imagery (no headsets, no chat bubbles in the conventional sense). No sparkles or motion blur. No additional Neon Lime accents beyond the single audit-trail trace. The input ticket, the visible routing-node sequence, the audit-trail trace, and the output destination card are the entire composition.

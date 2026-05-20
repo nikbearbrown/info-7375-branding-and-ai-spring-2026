@@ -1,0 +1,15 @@
+# Hero image brief — Chapter 32: Case: Vigilara — Healthcare AI Risk Intelligence
+
+**Subject.** A schematic composition rendering the eye-symbol Guardian logomark as the central visual anchor — a stylized eye motif rendered in clean line drawing, rotated very slightly to suggest active scanning rather than static observation. Around the eye, four small surrounding cards arrayed at compass points represent the four named clinical-risk categories with micro-type labels. Below the composition, a single thin horizontal trace in cyan shows a steady risk-monitoring waveform with one small pink anomaly spike — the moment a risk signal is detected.
+
+**Mood.** Guardian-archetype-considered, clinically authoritative, quietly vigilant. The composition should feel like a thoughtful safety-architecture diagram rather than a marketing graphic. Restraint everywhere; the cyan-and-pink palette is the brand's central visual signature and is rendered with discipline.
+
+**Negative space for title overlay.** Reserve the upper third of the canvas for chapter title and case-tagline overlay. The eye logomark sits at centre-lower, with the four risk-category cards arrayed around it, and the monitoring waveform anchors the lower edge.
+
+**What the teaching image should make most visually prominent.** The *eye logomark as Guardian-archetype made literal* — the eye motif should read first. The single pink anomaly spike on the otherwise-cyan monitoring trace argues the brand's *cyan = trust, pink = care* dual-register commitment. The four risk-category cards argue the healthcare-specificity move at the architecture level.
+
+**Palette.** Navy `#0F172A` ground; Cyan `#0EA5E9` for the eye logomark primary line weight, the monitoring trace, and three of the four risk-category card borders; Pink `#DB2777` exclusively on the single anomaly spike on the monitoring trace and on the eye's centre detail (the dual-register Trust/Care commitment); Teal `#0D9488` for secondary depth on the risk-category cards; near-white `#F8FAFC` for typography. Inter Bold 900 for any display typography; JetBrains Mono for the risk-score numerals. No additional saturated colors.
+
+**Style references.** The clinical-architectural register of *NEJM* feature-illustration figures; the considered restraint of *MIT Technology Review* feature openers when treating healthcare topics; the schematic precision of well-designed medical-device interface screenshots stripped of brand mark. Avoid the saturated marketing register of generic AI-tool hero graphics and avoid stock medical imagery (no white coats, no stethoscopes, no hospital iconography).
+
+**What to avoid.** No literal hospitals, doctors, patients, or medical devices. No medical-symbol clichés (caduceus, red cross, heartbeat line). No GPT, Claude, OpenAI, Anthropic, n8n, or Streamlit brand marks. No human face or hand. No saturated-marketing gradients or glow effects. No additional pink accents beyond the single anomaly spike and the eye's centre detail. The eye logomark, the four risk-category cards, and the cyan-with-one-pink-spike monitoring trace are the entire composition.

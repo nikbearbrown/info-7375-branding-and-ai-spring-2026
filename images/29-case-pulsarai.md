@@ -1,0 +1,15 @@
+# Hero image brief — Chapter 29: Case: PULSARAI — The Pulse of Tech Intelligence
+
+**Subject.** A composition rendering the radical-affordability claim as the central visual argument: on the left side of the canvas, a stack of stylized browser tabs cluttered with article fragments at micro-type scale (representing *2+ hours / $40 a day*). On the right side, a single clean dashboard card showing four small chart elements — sentiment-distribution pie, category-breakdown bar, trend-signals indicator, and one auto-generated social-post snippet — annotated with *3 minutes / $0.01* below it. Between the two sides, a single horizontal connecting flow rendered as the gold hexagonal PULSARAI logo at small scale, holding the visual argument together.
+
+**Mood.** Considered, warm-premium, magician-quality. The composition should feel like the brand's claim made visible at a glance: the cluttered-tabs side is overwhelming; the dashboard side is restful; the gold hexagonal logo is the moment of compression. The Magician archetype rendered as visual transformation.
+
+**Negative space for title overlay.** Reserve the upper third of the canvas for chapter title and case-tagline overlay. The two-side composition sits in the lower two-thirds, weighted across the canvas to centre. The PULSARAI wordmark may appear once at very small scale below the dashboard card.
+
+**What the teaching image should make most visually prominent.** The *contrast between the cluttered-tabs side and the single-dashboard side* — the eye should immediately register the compression as visual fact before reading the cost annotation. The gold hexagonal logo at the centre is the moment the Magician archetype does its work; the warm palette (Dark Brown ground, Gold accent, Violet secondary) carries the brand voice the visual argument depends on.
+
+**Palette.** Dark Brown `#1A120B` ground; Warm Brown `#241A12` for card surfaces; Gold `#F59E0B` for the central hexagonal logo and the *3 minutes / $0.01* annotation; Violet `#8B5CF6` for the secondary chart accents on the dashboard card; Zinc Gray `#A1A1AA` for the cluttered-tabs micro-type and inactive elements; near-white for the active dashboard typography. The WCAG-AAA contrast discipline (8:1 gold-on-brown, 19:1 white-on-brown) holds across the composition.
+
+**Style references.** The warm-palette editorial register of *Cereal* magazine product features; the considered restraint of Notion's brand illustrations; the schematic precision of Stripe's pricing-page diagrams. Avoid the cool-tech-blue marketing register of the AI-tooling category default.
+
+**What to avoid.** No literal Feedly, Techmeme, or AYLIEN brand marks. No GPT-4o-mini, OpenAI, n8n, or Streamlit logos. No human face or hand. No literal pulsar / star / cosmic iconography (the brand uses a hexagonal mark, not an astronomical one). No motion blur or speed lines. No additional saturated accents beyond the gold-and-violet palette commitment. The cluttered-tabs left, the single-dashboard right, and the gold hexagonal logo at the centre are the entire composition.

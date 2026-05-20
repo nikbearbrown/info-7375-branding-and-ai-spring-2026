@@ -1,0 +1,15 @@
+# Hero image brief — Chapter 30: Case: DataWise — Strategic Intelligence as a Service
+
+**Subject.** A schematic composition rendering the four-phase methodology as the central visual argument: *Aggregation → AI Analysis → Reliability → Generation* as four discrete cards in a left-to-right sequence, with a single output card on the right showing three color-coded recommendation rows — one in High-Priority red, one in Medium-Priority orange, one in Low-Priority blue. The color coding is the brand's immutable priority-system rule made literal at the hero level. The reliability phase (third card) carries a small visual annotation showing two parallel paths converging — *AI primary / rule-based fallback* — to argue the 100% uptime commitment.
+
+**Mood.** Professional consulting-tool register, confident and quietly authoritative. The composition should feel like a strategic-recommendations report rendered as architecture rather than as a marketing graphic. Restrained throughout; the priority colors are the only saturated detail.
+
+**Negative space for title overlay.** Reserve the upper-right quadrant for chapter title and case-tagline overlay. The four-phase pipeline plus the output card sit at the lower two-thirds, weighted across the canvas. The DataWise wordmark may appear once at very small scale below the output card.
+
+**What the teaching image should make most visually prominent.** The *priority-coded recommendation output on the right card* — three rows, three priority colors, each at the immutable hex value the brand commits to. The viewer reads the color-coding as the brand's discipline before reading the methodology pipeline. The reliability phase's *two-paths-converging* annotation is the second visual emphasis, arguing the hybrid architecture as the load-bearing reliability commitment.
+
+**Palette.** Deep Navy `#1A2C3D` ground; AI Blue `#2E5CFF` for primary line weight and methodology card borders; Cyan `#4ECDC4` for connecting arrows between phases; High-Priority Red `#E74C3C`, Medium-Priority Orange `#F39C12`, and Low-Priority Blue `#3498DB` exclusively on the three output rows (the immutable priority-system rule). Inter Bold for any display text; JetBrains Mono for the metrics on the output card. Crisp white only as backdrop or for typography on darker cards.
+
+**Style references.** The reference-diagram register of strategic-consulting deliverables (McKinsey Quarterly visual layouts, Bain pyramid diagrams stripped of brand mark); the considered restraint of Stripe's pricing-comparison illustrations; the schematic precision of Linear's roadmap views. Avoid the saturated marketing register of generic AI-tool hero images.
+
+**What to avoid.** No literal Mixpanel, Julius AI, or consultant-firm logos. No GPT-3.5-Turbo, OpenAI, n8n, or Streamlit brand marks. No human face or hand. No "AI brain" iconography. No additional saturated colors beyond the immutable priority-system palette. No motion blur or speed lines. The four-phase pipeline plus the priority-coded output card are the entire composition.

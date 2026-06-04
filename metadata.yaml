@@ -1,8 +1,7 @@
 ---
 title: "Branding and AI"
 subtitle: "AI+1, Hands on. Domain specific. No generic prompts."
-author:
-  - Nik Bear Brown
+author: "Nik Bear Brown & Nina Harris"
 date: 2026
 lang: en-US
 description: |
@@ -14,8 +13,8 @@ description: |
   system, and the visual-identity, storytelling, portfolio, and launch
   disciplines that make a Creative Engineer legible to the audience their
   work is for.
-rights: © 2026 Nik Bear Brown. All rights reserved.
-publisher: Bear Brown LLC
+rights: "Copyright © 2026 Nik Bear Brown & Nina Harris. All rights reserved."
+publisher: "Bear Brown, LLC"
 subject:
   - Branding & Identity
   - AI Product Design
@@ -34,4 +33,12 @@ keywords:
 ibooks:
   version: 1.0.0
 toc-title: Contents
+subject_domain: ""
+tone: ""
+audience: ""
+chapter_titles: []
+avoid: []
+palette_preference: ""
+series_name: ""
+thumbnail_priority: "title and central icon"
 ...

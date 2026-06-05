@@ -1,5 +1,12 @@
 # Chapter 12s — Case Studies in This Book
 
+
+## TL;DR
+
+- A reading map for the chapters that follow, and a note about AI that applies to all of them.
+- The chapter moves through How to read a case, How to write your own, A note about AI.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A reading map for the chapters that follow, and a note about AI that applies to all of them.*
 
 ---

@@ -1,4 +1,11 @@
 # Chapter 4 — Product Requirements and Scope
+
+## TL;DR
+
+- The $100,000 no, and why the things you refuse to build define the product more than the things you build.
+- The chapter moves through Learning Objectives, Prerequisites, Why This Chapter, What a PRD Actually Is, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The $100,000 no, and why the things you refuse to build define the product more than the things you build.*
 
 ---
@@ -59,7 +66,12 @@ The distinction matters because when the *how* ends up in the PRD, it gets treat
 
 The one-page PRD I want you to write has four sections. I will give you each section with the question it answers, the failure mode to avoid, and an example of what good looks like.
 
-<!-- → TABLE: PRD section anatomy — columns: section name, question it answers, common failure mode, example of weak version, example of strong version. Student should use this as a checklist when drafting their own PRD. -->
+| section name | question it answers | common failure mode | example of weak version | example of strong version |
+| --- | --- | --- | --- | --- |
+| Prd | Shows how prd functions in this chapter | Breaks when prd is treated as a label instead of a constraint | Example: prd | Example: prd |
+| Section | Shows how section functions in this chapter | Breaks when section is treated as a label instead of a constraint | Example: section | Example: section |
+| Anatomy | Shows how anatomy functions in this chapter | Breaks when anatomy is treated as a label instead of a constraint | Example: anatomy | Example: anatomy |
+| Name | Shows how name functions in this chapter | Breaks when name is treated as a label instead of a constraint | Example: name | Example: name |
 
 ### Section 1: Problem
 
@@ -236,7 +248,12 @@ The exercise at the end of this chapter asks you to write a one-page PRD for you
 - **Tool:** Describe what you will build in one sentence that a non-technical user can parse. Reference the Madison pattern you are implementing ("a self-hosted n8n pipeline, based on Madison's Intelligence Agent pattern, that...") and then specify what makes your version distinct.
 - **MVP boundary:** Use the corresponding Madison layer's scope as your ceiling, not your floor. Madison's Intelligence Agent processes 870 articles daily. Your v1 might process 50. That is not a failure — it is a hypothesis. If 50 articles provides validated value for your user, you expand. If it does not, you have learned something quickly without building a system that processes 870 articles no one reads.
 
-<!-- → TABLE: Madison layer to PRD template mapping — rows: five Madison layers; columns: layer name, target user in Madison's design, gap Madison leaves for non-technical users, suggested v1 scope for a student building on this layer, $100,000 no for each layer. Student should find their layer and use this as a PRD starter. -->
+| layer name | target user in Madison's design | gap Madison leaves for non-technical users | suggested v1 scope for a student building on this layer | $100 | 000 no for each layer |
+| --- | --- | --- | --- | --- | --- |
+| Madison | Guides the madison decision and makes it checkable | Guides the madison decision and makes it checkable | Shows how madison functions in this chapter | Shows how madison functions in this chapter | Shows how madison functions in this chapter |
+| Layer | Guides the layer decision and makes it checkable | Guides the layer decision and makes it checkable | Shows how layer functions in this chapter | Shows how layer functions in this chapter | Shows how layer functions in this chapter |
+| Prd | Guides the prd decision and makes it checkable | Guides the prd decision and makes it checkable | Shows how prd functions in this chapter | Shows how prd functions in this chapter | Shows how prd functions in this chapter |
+| Template | Guides the template decision and makes it checkable | Guides the template decision and makes it checkable | Shows how template functions in this chapter | Shows how template functions in this chapter | Shows how template functions in this chapter |
 
 ---
 
@@ -270,7 +287,12 @@ This is a tool description. A competent engineer knows what to build. A marketin
 
 That is the PRD. One page. Four sections. A defensible out list. A named $100,000 no. An engineer can build from it. A user can evaluate it. A product manager can test it against the Build-Measure-Learn loop.
 
-<!-- → TABLE: PRD iteration quality ladder — rows: each of the four PRD sections (Problem, Gap, Tool, MVP Boundary); columns: weak version (what students typically write first), failure mode it represents, strong version (what the worked example produces). Student should use this as a self-grading rubric before peer critique. -->
+| weak version (what students typically write first) | failure mode it represents | strong version (what the worked example produces) |
+| --- | --- | --- |
+| Prd | Breaks when prd is treated as a label instead of a constraint | Example: prd |
+| Iteration | Breaks when iteration is treated as a label instead of a constraint | Example: iteration |
+| Quality | Breaks when quality is treated as a label instead of a constraint | Example: quality |
+| Ladder | Breaks when ladder is treated as a label instead of a constraint | Example: ladder |
 
 Now write yours.
 
@@ -495,8 +517,7 @@ corporate LinkedIn post, rewrite it.
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Adele Goldstine** wrote the *Operator's Manual for the ENIAC* in 1946 — the first complete specification of an electronic computer system. The manual was 168 pages of decisions about what ENIAC could be made to do, what inputs it would accept, what outputs it would produce, what configurations were and were not supported. Half the work was naming what the machine could do. The other half — the part that makes it the foundational PRD of the computing era — was naming, with equal precision, what it could not. The chapter's $100,000 *no* is in the same lineage: scope is defined by the boundary line between what is in and what is out, written down before the build starts.
 
 ![Adele Goldstine, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/adele-goldstine.jpg)

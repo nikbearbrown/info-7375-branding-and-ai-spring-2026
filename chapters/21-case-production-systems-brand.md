@@ -1,5 +1,12 @@
 # Chapter 21 — Case: Systems That Scale — Gunashree Rajakumar
 
+
+## TL;DR
+
+- A senior-engineer personal brand built on five years of pre-MS production work — Aiera × Anthropic MCP integration at Wall Street scale, Airtel fraud detection at sub-50ms, Flipkart ML at peak Big Billion Days...
+- The chapter moves through Situation, Architecture, Design rationale, Trade-offs, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A senior-engineer personal brand built on five years of pre-MS production work — Aiera × Anthropic MCP integration at Wall Street scale, Airtel fraud detection at sub-50ms, Flipkart ML at peak Big Billion Days throughput — with BrandIQ as the demonstration that the same engineer ships fast at the personal-brand level.*
 
 **Author:** Gunashree Rajakumar

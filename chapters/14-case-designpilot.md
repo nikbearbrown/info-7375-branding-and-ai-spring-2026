@@ -1,5 +1,12 @@
 # Chapter 14 — Case: DesignPilot — Personal Brand and Tool
 
+
+## TL;DR
+
+- A designer-to-PM-track personal brand built around a single tool that solves the friction the designer lived through — design rationale that survives the handoff from Figma to sprint board.
+- The chapter moves through Situation, Architecture, Design rationale, Trade-offs, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A designer-to-PM-track personal brand built around a single tool that solves the friction the designer lived through — design rationale that survives the handoff from Figma to sprint board.*
 
 **Author:** Yingjie (Jessie) Hong

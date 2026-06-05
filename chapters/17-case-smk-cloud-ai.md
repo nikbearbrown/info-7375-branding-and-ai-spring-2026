@@ -1,5 +1,12 @@
 # Chapter 17 — Case: SMK — Bridging Cloud Infrastructure and AI Implementation
 
+
+## TL;DR
+
+- A cloud-engineer-pivoting-into-AI personal brand built on the Bridge Builder pillar — three years of enterprise Azure work at Accenture made legible alongside the AI integration practice the brand is now teaching to graduate students.
+- The chapter moves through Situation, Architecture, Design rationale, Trade-offs, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A cloud-engineer-pivoting-into-AI personal brand built on the Bridge Builder pillar — three years of enterprise Azure work at Accenture made legible alongside the AI integration practice the brand is now teaching to graduate students.*
 
 **Author:** Sai Manasa Karanam

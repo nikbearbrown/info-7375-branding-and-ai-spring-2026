@@ -1,5 +1,12 @@
 # Chapter 25 — Case: vigilixx — Market Intelligence, Decoded
 
+
+## TL;DR
+
+- A market-intelligence startup brand built on the blue ocean between $20K-per-year enterprise tools and free raw-feed aggregators — anchored on a sub-five-minute scoring window, the Vigilant archetype as strategic...
+- The chapter moves through Situation, Architecture, Design rationale, Trade-offs, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A market-intelligence startup brand built on the *blue ocean* between $20K-per-year enterprise tools and free raw-feed aggregators — anchored on a sub-five-minute scoring window, the Vigilant archetype as strategic anchor, and an explicit commitment that every score is explainable.*
 
 **Author:** Mithran Ezhilarasan

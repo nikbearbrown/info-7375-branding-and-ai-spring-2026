@@ -1,5 +1,12 @@
 # Chapter 13 — Case: Engineer Who Ships — Backend to AI
 
+
+## TL;DR
+
+- A personal brand built around a metric-first positioning move — every claim carries a number, every number traces back to a production system that served real users.
+- The chapter moves through Situation, Architecture, Design rationale, Trade-offs, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A personal brand built around a metric-first positioning move — every claim carries a number, every number traces back to a production system that served real users.*
 
 **Author:** Abhishek Prakash

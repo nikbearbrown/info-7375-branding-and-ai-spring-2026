@@ -1,4 +1,11 @@
 # Chapter 8 (Personal Brand Path) — Brand Strategy
+
+## TL;DR
+
+- This chapter gives a working overview of Chapter 8 (Personal Brand Path) — Brand Strategy, focusing on the ideas a reader needs before moving to the next chapter.
+- The chapter moves through Learning Objectives, Prerequisites, Why this chapter matters, Part 1: What a Brand Strategy Actually Does, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The brand is not what you build. It is what you consistently decline to build.*
 
 ---
@@ -507,8 +514,7 @@ The question this chapter raises but does not fully answer: how do you maintain 
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Helen Lansdowne Resor** joined J. Walter Thompson in 1908 and over the next four decades defined what *personal* brand strategy could look like in a profession that did not yet have a name for it. Her copy for Woodbury Soap (*A Skin You Love to Touch*) and Pond's was the first major American advertising to ground product appeal in subjective experience rather than function. She built her career, her positioning, and her own brand inside a male-dominated industry by being unmistakably specific about who she wrote for and what kind of work she would and would not do. The chapter's argument — that a personal brand is a constraint set, not a description — is Resor's working method, applied to her own career a century before the language of personal brand existed.
 
 ![Helen Lansdowne Resor, c. 1920s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/helen-lansdowne-resor.jpg)

@@ -1,5 +1,12 @@
 # Chapter 22 — Case: InterviewEdge — The Brand Made Deployable
 
+
+## TL;DR
+
+- A Craftsman-Engineer personal brand executed in a terminal-aesthetic visual system, anchored on a tool the engineer needed and could not find — InterviewEdge, a JD-aware interview coach, deployed under ten seconds,...
+- The chapter moves through Situation, Architecture, Design rationale, Trade-offs, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A Craftsman-Engineer personal brand executed in a terminal-aesthetic visual system, anchored on a tool the engineer needed and could not find — InterviewEdge, a JD-aware interview coach, deployed under ten seconds, free, no account, no stored data.*
 
 **Authors:** Karthik Kashyap Ramasamudra Phaneesh Kashyap

@@ -1,5 +1,12 @@
 # Chapter 37 — Case: Prismiq — The $4 Cable and the $1,500 Bill
 
+
+## TL;DR
+
+- A small-business sentiment-and-response-automation startup brand built around a single lived origin — a $4 cable, a 1-star review never seen, $1,500 in lifetime customer value lost — anchored on a pay-as-you-go...
+- The chapter moves through Situation, Architecture, Design rationale, Trade-offs, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A small-business sentiment-and-response-automation startup brand built around a single lived origin — a $4 cable, a 1-star review never seen, $1,500 in lifetime customer value lost — anchored on a pay-as-you-go pricing inversion of enterprise sentiment tools and a 30-minute setup commitment that operationalizes the *speed to value* pillar.*
 
 *Note: Prismiq (Ch 37, Path B) and Moodcore (Ch 27, Path B) both target small-business sentiment analysis in the cohort. The differentiation lives in pricing posture (Prismiq's pay-as-you-go vs. Moodcore's positioning ambiguity), origin story (Prismiq's $4-cable anchor vs. Moodcore's general feedback-volume frame), and the response-automation pillar (Prismiq pairs sentiment with personalized response generation; Moodcore stops at sentiment). The case treats the cohort overlap honestly. A separate naming-similarity note: *Prismiq* and *Prismly* (the competitive-RSS analyzer in Ch 15) share a near-homophonic stem but are unrelated products. The cohort produced both independently.*

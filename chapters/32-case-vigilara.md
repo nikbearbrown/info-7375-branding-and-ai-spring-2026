@@ -1,5 +1,12 @@
 # Chapter 32 — Case: Vigilara — Healthcare AI Risk Intelligence
 
+
+## TL;DR
+
+- A healthcare-AI-safety-tooling startup brand built on a single specificity move — generic AI-risk monitoring is the wrong category; healthcare-specific real-time risk intelligence is the right one — anchored on the...
+- The chapter moves through Situation, Architecture, Design rationale, Trade-offs, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A healthcare-AI-safety-tooling startup brand built on a single specificity move — generic AI-risk monitoring is the wrong category; healthcare-specific real-time risk intelligence is the right one — anchored on the Guardian archetype, three named buyer personas, and a sub-90-second risk-scoring pipeline.*
 
 *Note: Vigilara (Ch 32, Path B) is a different project from vigilixx (Ch 25, Path B). The two share a vigilance-archetype thread by name only — Vigilara serves healthcare buyers with HIPAA-aware AI risk monitoring; vigilixx serves mid-market B2B SaaS teams with market intelligence. The cohort produced both independently.*

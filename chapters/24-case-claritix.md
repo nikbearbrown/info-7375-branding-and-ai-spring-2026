@@ -1,5 +1,12 @@
 # Chapter 24 — Case: Claritix — Context at the Speed of the Alert
 
+
+## TL;DR
+
+- An anomaly-intelligence startup brand built around a single move — auto-correlating KPI anomalies with external signals (cloud status, deployment logs, news feeds) before the engineer has to investigate — anchored on...
+- The chapter moves through Situation, Architecture, Design rationale, Trade-offs, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *An anomaly-intelligence startup brand built around a single move — auto-correlating KPI anomalies with external signals (cloud status, deployment logs, news feeds) before the engineer has to investigate — anchored on a real audit story (47 alerts, 4 real, 1 missed at $200K cost) and the explicit *explanation layer nobody owns*.*
 
 **Author:** Ankit Deopurkar

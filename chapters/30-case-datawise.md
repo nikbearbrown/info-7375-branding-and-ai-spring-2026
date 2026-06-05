@@ -1,5 +1,12 @@
 # Chapter 30 — Case: DataWise — Strategic Intelligence as a Service
 
+
+## TL;DR
+
+- A small-business strategic-analytics startup brand built around a deliberate replacement target — the $5,000-and-up consulting engagement collapsed to a 90-second AI-driven analysis at $5 a month — anchored on a...
+- The chapter moves through Situation, Architecture, Design rationale, Trade-offs, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A small-business strategic-analytics startup brand built around a deliberate replacement target — the $5,000-and-up consulting engagement collapsed to a 90-second AI-driven analysis at $5 a month — anchored on a hybrid architecture (AI primary plus rule-based fallback) that argues for *strategy, not dashboards* as the actual category.*
 
 **Author:** Minal Ashok Naranje

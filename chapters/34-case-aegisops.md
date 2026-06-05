@@ -1,5 +1,12 @@
 # Chapter 34 — Case: AegisOps — External Predictive Operational Intelligence
 
+
+## TL;DR
+
+- A DevOps-and-SRE startup brand built around a single category-creation move — every existing tool watches your systems; nobody watches AWS — anchored on a 62-second average run time, a hard-capped 25-AI-call cost...
+- The chapter moves through Situation, Architecture, Design rationale, Trade-offs, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A DevOps-and-SRE startup brand built around a single category-creation move — every existing tool watches your systems; nobody watches AWS — anchored on a 62-second average run time, a hard-capped 25-AI-call cost ceiling, and a four-priority risk taxonomy aligned to engineer-first usability.*
 
 **Author:** Rajat Kumar Puli

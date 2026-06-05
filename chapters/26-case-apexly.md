@@ -1,5 +1,12 @@
 # Chapter 26 — Case: Apexly — The AI Edge F1 Fantasy Platforms Have Been Missing
 
+
+## TL;DR
+
+- A B2B-fantasy-sports-tooling startup brand built around a deliberate audience pivot — fan tool to operator platform — anchored on a dual-AI architecture (GPT-4o-mini + ML) querying 26,759 historical F1 records, with...
+- The chapter moves through Situation, Architecture, Design rationale, Trade-offs, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A B2B-fantasy-sports-tooling startup brand built around a deliberate audience pivot — fan tool to operator platform — anchored on a dual-AI architecture (GPT-4o-mini + ML) querying 26,759 historical F1 records, with confidence percentages calibrating operator payouts rather than predictions for fan consumption.*
 
 **Author:** Harsh Vinay Gujarati

@@ -1,5 +1,12 @@
 # Chapter 27 — Case: Moodcore — Sentiment Intelligence for Small Teams
 
+
+## TL;DR
+
+- A sentiment-analysis startup brand built around the move from review-aggregation to early-warning intelligence — anchored on a real frustration the builder lived through (hours-long manual review reading, missed...
+- The chapter moves through Situation, Architecture, Design rationale, Trade-offs, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A sentiment-analysis startup brand built around the move from review-aggregation to early-warning intelligence — anchored on a real frustration the builder lived through (hours-long manual review reading, missed trend that cost customers) — with a positioning ambiguity at the brand-strategy level that surfaces as the case's most consequential editorial observation.*
 
 **Author:** Arjun Kavungal

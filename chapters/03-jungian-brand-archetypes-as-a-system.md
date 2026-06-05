@@ -1,5 +1,12 @@
 # Chapter 3 — Jungian Brand Archetypes as a System
 
+
+## TL;DR
+
+- A brand archetype is not a personality quiz.
+- The chapter moves through Learning Objectives, Prerequisites, Why This Chapter, and Why Now, Part I — What an Archetype Actually Is, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A brand archetype is not a personality quiz. It is a consistency-enforcement device — the constraint that makes every downstream decision decidable.*
 
 ---
@@ -53,9 +60,15 @@ The word *archetype* is doing at least four different jobs in current usage, and
 
 Mark and Pearson trace their system to Jung — their twelve archetypes share names with Jungian patterns — but the work itself is brand strategy, not psychology. The connection to Jung is useful for one thing: it explains why the patterns feel *familiar*. The Innocent, the Hero, the Outlaw, the Caregiver — customers recognize these patterns at a level below conscious articulation. That pre-conscious recognition is what makes the archetype system more than a naming scheme.
 
-<!-- → TABLE: A four-row reference table — rows are the four usages of "archetype" (Jungian, Typology, Genre, Brand); columns are: Name, What it is a claim about, Primary use, Source/framework. Student should be able to point to row 4 and say "this is what we are using and why." -->
+| : Name | What it is a claim about | Primary use | Source/framework |
+| --- | --- | --- | --- |
+| Row | Shows how row functions in this chapter | Guides the row decision and makes it checkable | Chapter framework |
+| Reference | Shows how reference functions in this chapter | Guides the reference decision and makes it checkable | Chapter framework |
+| Usages | Shows how usages functions in this chapter | Guides the usages decision and makes it checkable | Chapter framework |
+| Archetype | Shows how archetype functions in this chapter | Guides the archetype decision and makes it checkable | Chapter framework |
 
-[FIGURE: A 2x2 grid distinguishing the four usages of "archetype" — axes could be Individual/Collective and Psychological/Cultural — showing where each meaning lives and what it is a claim *about*. Student should see that brand archetypes occupy a distinct quadrant from the others.]
+![A 2x2 grid distinguishing the four usages of "archetype" — axes could be Individual/Collective and Psychological/Cultural — showing...](images/03-jungian-brand-archetypes-as-a-system-fig-01.png)
+*Figure 3.1 — 2x2 grid distinguishing the four usages of "archetype"*
 
 ### 1.2 The twelve archetypes
 
@@ -85,9 +98,15 @@ Here are the twelve in the Mark/Pearson system. For each: the core motivation (w
 
 **Creator** — Motivation: imagination, expression, originality. Shadow: perfectionism. The Creator brand says make something that was not there before. When it drifts, it becomes so invested in its own craft it forgets the audience. *(Lego, Adobe, Pixar.)*
 
-<!-- → TABLE: A compact reference table of all 12 archetypes — columns: Archetype, Core Motivation, Core Promise to Customer, Shadow, Representative Brand Examples. Designed as a tear-out reference card; student should be able to return to this table throughout the course without rereading the chapter. -->
+| Archetype | Core Motivation | Core Promise to Customer | Shadow | Representative Brand Examples |
+| --- | --- | --- | --- | --- |
+| Compact | Shows how compact functions in this chapter | Guides the compact decision and makes it checkable | Breaks when compact is treated as a label instead of a constraint | Example: compact |
+| Reference | Shows how reference functions in this chapter | Guides the reference decision and makes it checkable | Breaks when reference is treated as a label instead of a constraint | Example: reference |
+| All | Shows how all functions in this chapter | Guides the all decision and makes it checkable | Breaks when all is treated as a label instead of a constraint | Example: all |
+| Archetypes | Shows how archetypes functions in this chapter | Guides the archetypes decision and makes it checkable | Breaks when archetypes is treated as a label instead of a constraint | Example: archetypes |
 
-[FIGURE: A visual map of all twelve archetypes arranged by their primary motivations — perhaps arranged around two axes (Order/Freedom and Ego/Soul, as Mark and Pearson suggest) so students see the system's internal logic rather than a flat list. Students should see which archetypes cluster near each other and why.]
+![A visual map of all twelve archetypes arranged by their primary motivations — perhaps arranged around two axes (Order/Freedom and...](images/03-jungian-brand-archetypes-as-a-system-fig-02.png)
+*Figure 3.2 — visual map of all twelve archetypes arranged by their primary motivations*
 
 ### 1.3 What the names hide
 
@@ -127,7 +146,8 @@ The Sage archetype made those decisions. Not perfectly, not finally — there is
 
 This is what I mean when I say an archetype is a forcing function. It is not a brand asset in the sense of a logo or a tagline. It is the constraint that makes all the other brand assets cohere.
 
-[FIGURE: A decision tree showing one brand decision (e.g., "What tone should our error messages use?") resolved differently for five different archetypes — Sage, Hero, Jester, Caregiver, Outlaw. Students should see that the archetype is doing the deciding work, not aesthetic preference.]
+![A decision tree showing one brand decision (e.g., "What tone should our error messages use?") resolved differently for five different...](images/03-jungian-brand-archetypes-as-a-system-fig-03.png)
+*Figure 3.3 — decision tree showing one brand decision (e.g., "What tone should our...*
 
 ### 2.2 The recognition asset
 
@@ -153,7 +173,8 @@ The Hero's strength is the belief that you can become better. The shadow of that
 
 The Caregiver's strength is generosity. The shadow of generosity is martyrdom: a Caregiver brand that drifts develops a tone of "we sacrifice for you, and you should notice that." It becomes manipulative and exhausting.
 
-[FIGURE: A table listing all twelve archetypes, their core strength, and their shadow — formatted so students can see the structural relationship between the strength and its failure mode. Not just "here is the shadow" but "here is why this shadow is the natural breakdown of this strength."]
+![A table listing all twelve archetypes, their core strength, and their shadow — formatted so students can see the structural relationship...](images/03-jungian-brand-archetypes-as-a-system-fig-04.png)
+*Figure 3.4 — table listing all twelve archetypes, their core strength, and their shadow*
 
 The shadow is useful to you in exactly one way: it tells you where to watch. When you pick an archetype, you also pick your most likely failure mode. Knowing which shadow is yours means you know which early-warning signs to monitor. We will return to this in the exercises.
 
@@ -177,7 +198,12 @@ Before the cases, here is the analytical frame. A complete drift analysis requir
 
 These four elements are the checklist for any archetype analysis you run on any brand, including your own.
 
-<!-- → TABLE: A blank four-row analysis template students can photocopy or print — rows labeled: Original Archetype, The Drift (direction + what changed), Customer Rejection (what specifically was lost), Shadow or Category Error (diagnosis). Wide right column for student notes. Intended as a reusable worksheet for exercises A4, S2, and C1–C2. -->
+| Concept | What it means | How to use it |
+| --- | --- | --- |
+| Blank | Shows how blank functions in this chapter | Guides the blank decision and makes it checkable |
+| Row | Shows how row functions in this chapter | Guides the row decision and makes it checkable |
+| Analysis | Shows how analysis functions in this chapter | Guides the analysis decision and makes it checkable |
+| Template | Shows how template functions in this chapter | Guides the template decision and makes it checkable |
 
 ### 3.2 Tropicana, 2009: The Innocent loses its handle
 
@@ -193,7 +219,8 @@ On February 23, 2009 — less than two months after launch — Tropicana announc
 
 The lesson is precise: the recognition asset is built by the archetype's specific expression, not by the archetype's *name*. You cannot swap expressions without losing the recognition that accumulated in the original form.
 
-[FIGURE: Side-by-side comparison of the original Tropicana Pure Premium carton (orange with straw) and the 2009 redesign (glass of juice). Caption should direct students to identify the specific archetype signals in each design: What does each version signal about simplicity, aspiration, and recognition?]
+![Side-by-side comparison of the original Tropicana Pure Premium carton (orange with straw) and the 2009 redesign (glass of juice)....](images/03-jungian-brand-archetypes-as-a-system-fig-05.png)
+*Figure 3.5 — Side-by-side comparison of the original Tropicana Pure Premium carton...*
 
 ### 3.3 Gap, 2010: The Everyman becomes unrecognizable
 
@@ -209,7 +236,8 @@ The speed of the rejection is diagnostic. Customers did not need time to be conv
 
 The company attempted to solicit customer feedback through a crowdsourcing exercise after the backlash began. The exercise was widely mocked as a response to a crisis, not a genuine engagement. Six days from launch to rollback is the fastest documented major brand rollback on record.
 
-[FIGURE: Side-by-side of the original Gap logo (blue square, white serif type) and the 2010 redesign (smaller square, Helvetica). Students should annotate each: What archetype signals does each version carry? What does the serif communicate that Helvetica does not?]
+![Side-by-side of the original Gap logo (blue square, white serif type) and the 2010 redesign (smaller square, Helvetica). Students should...](images/03-jungian-brand-archetypes-as-a-system-fig-06.png)
+*Figure 3.6 — Side-by-side of the original Gap logo (blue square, white serif type)...*
 
 ### 3.4 New Coke, 1985: The Innocent tries to out-Outlaw the Outlaw
 
@@ -229,7 +257,8 @@ More importantly: Coca-Cola's customers were not buying Coke because it tasted b
 
 The Innocent's shadow is denial. Coca-Cola's leadership had been in denial about what their product actually was to their customers — they treated it as a taste preference rather than a symbolic commitment. That is the shadow activating: the Innocent's refusal to see the complexity of what it is.
 
-[FIGURE: Timeline showing the New Coke crisis: April 1985 (launch of New Coke, discontinuation of original formula) → May/June 1985 (customer backlash, 400,000 complaints) → July 1985 (Coca-Cola Classic returns). Students should see the arc and the speed of the correction relative to Gap and Tropicana.]
+![Timeline showing the New Coke crisis: April 1985 (launch of New Coke, discontinuation of original formula) → May/June 1985 (customer...](images/03-jungian-brand-archetypes-as-a-system-fig-07.png)
+*Figure 3.7 — Timeline showing the New Coke crisis: April 1985 (launch of New Coke,...*
 
 ### 3.5 The pattern across all three cases
 
@@ -241,7 +270,8 @@ The specific direction of the drift varies. Tropicana moved from Innocent toward
 
 The speed of the rollback varies — two months, six days, three months — but the direction does not. All three reversed.
 
-[FIGURE: A comparison table across all three cases — columns: Brand, Original Archetype, Drift Direction, Customer Rejection Mechanism, Time to Rollback, Shadow or Category Error. Students should be able to complete this table from the chapter text as a self-check.]
+![A comparison table across all three cases — columns: Brand, Original Archetype, Drift Direction, Customer Rejection Mechanism, Time to...](images/03-jungian-brand-archetypes-as-a-system-fig-08.png)
+*Figure 3.8 — comparison table across all three cases*
 
 ---
 
@@ -263,7 +293,13 @@ Here is the analytical procedure for identifying a brand's archetype from its ob
 
 Five inputs. Name the archetype that accounts for all five. If you cannot reconcile all five with a single archetype, you have found either a genuine hybrid (common in mature brands) or evidence of drift in progress.
 
-<!-- → TABLE: A five-row analysis worksheet — rows: Tagline/Positioning, Visual Language, What It Refuses to Do, Who It Treats as Customer, Crisis Response Behavior. Right column blank for student notes. A second column shows worked examples from one brand (e.g., Nike) so students see what a complete five-input analysis looks like filled in before attempting their own. -->
+| Concept | What it means | How to use it |
+| --- | --- | --- |
+| Row | Shows how row functions in this chapter | Guides the row decision and makes it checkable |
+| Analysis | Shows how analysis functions in this chapter | Guides the analysis decision and makes it checkable |
+| Worksheet | Shows how worksheet functions in this chapter | Guides the worksheet decision and makes it checkable |
+| Tagline | Shows how tagline functions in this chapter | Guides the tagline decision and makes it checkable |
+| Positioning | Shows how positioning functions in this chapter | Guides the positioning decision and makes it checkable |
 
 ### 4.2 Predicting failure from the shadow
 
@@ -282,7 +318,8 @@ The Sage's shadow is dogmatism. Early signals of the shadow activating would inc
 
 Whether LinkedIn is currently activating its shadow is a question you can evaluate yourself by reading five minutes of its feed with this frame in mind. The prediction is not that the shadow *will* activate. The prediction is that *if* LinkedIn fails as a brand, this is the most likely shape of that failure. The shadow is not a curse. It is a map.
 
-[FIGURE: A worked shadow analysis for one brand — show the four-step procedure applied visibly, with each step labeled. Students should be able to replicate this format for any brand they choose.]
+![A worked shadow analysis for one brand — show the four-step procedure applied visibly, with each step labeled. Students should be able...](images/03-jungian-brand-archetypes-as-a-system-fig-09.png)
+*Figure 3.9 — worked shadow analysis for one brand*
 
 ---
 
@@ -531,12 +568,15 @@ Here are my writing samples:
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Carl Jung** is the source the chapter has been borrowing from. The twelve archetypes Margaret Mark and Carol Pearson catalogued for marketing in *The Hero and the Outlaw* (2001) are downstream of Jung's argument that certain figures — Hero, Sage, Caregiver, Trickster, Lover — recur across cultures because they correspond to durable patterns in human psychology, not to any particular author's invention. The chapter has used the framework as a strategic instrument; Jung intended it as a description of the unconscious. The shadow side of the archetype, which the chapter takes seriously, is also Jung's idea — the failure mode that the strength of an archetype tends to produce when taken too far.
 
 ![Carl Jung, c. 1910s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/carl-jung.jpg)
 *Carl Jung, c. 1910s. AI-generated portrait based on a public domain photograph.*
+
+![Carl Jung](../images/carl-jung-jzt.png)
+
+*Puppet Art by [Nik Bear Brown](https://www.nikbearbrown.com/).*
 
 **Run this:**
 
@@ -554,3 +594,84 @@ Who was Carl Jung, and how does his concept of *archetypes* connect to using a t
 
 What changes? What gets better? What gets worse?
 
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 3.1 — 2x2 grid distinguishing the four usages of "archetype"
+
+Create a standalone D3 v7 HTML figure for "2x2 grid distinguishing the four usages of "archetype"". Use a horizontal process diagram with 4 to 5 ordered stages with directed connectors. Marks: rectangular stage nodes and arrow connectors. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/03-jungian-brand-archetypes-as-a-system-fig-01.html`
+
+---
+
+### Figure 3.2 — visual map of all twelve archetypes arranged by their primary motivations
+
+Create a standalone D3 v7 HTML figure for "visual map of all twelve archetypes arranged by their primary motivations". Use a horizontal process diagram with 4 to 5 ordered stages with directed connectors. Marks: rectangular stage nodes and arrow connectors. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/03-jungian-brand-archetypes-as-a-system-fig-02.html`
+
+---
+
+### Figure 3.3 — decision tree showing one brand decision (e.g., "What tone should our...
+
+Create a standalone D3 v7 HTML figure for "decision tree showing one brand decision (e.g., "What tone should our...". Use a horizontal process diagram with 4 to 5 ordered stages with directed connectors. Marks: rectangular stage nodes and arrow connectors. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/03-jungian-brand-archetypes-as-a-system-fig-03.html`
+
+---
+
+### Figure 3.4 — table listing all twelve archetypes, their core strength, and their shadow
+
+Create a standalone D3 v7 HTML figure for "table listing all twelve archetypes, their core strength, and their shadow". Use a horizontal process diagram with 4 to 5 ordered stages with directed connectors. Marks: rectangular stage nodes and arrow connectors. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/03-jungian-brand-archetypes-as-a-system-fig-04.html`
+
+---
+
+### Figure 3.5 — Side-by-side comparison of the original Tropicana Pure Premium carton...
+
+Create a standalone D3 v7 HTML figure for "Side-by-side comparison of the original Tropicana Pure Premium carton...". Use a horizontal process diagram with 4 to 5 ordered stages with directed connectors. Marks: rectangular stage nodes and arrow connectors. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/03-jungian-brand-archetypes-as-a-system-fig-05.html`
+
+---
+
+### Figure 3.6 — Side-by-side of the original Gap logo (blue square, white serif type)...
+
+Create a standalone D3 v7 HTML figure for "Side-by-side of the original Gap logo (blue square, white serif type)...". Use a horizontal process diagram with 4 to 5 ordered stages with directed connectors. Marks: rectangular stage nodes and arrow connectors. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/03-jungian-brand-archetypes-as-a-system-fig-06.html`
+
+---
+
+### Figure 3.7 — Timeline showing the New Coke crisis: April 1985 (launch of New Coke,...
+
+Create a standalone D3 v7 HTML figure for "Timeline showing the New Coke crisis: April 1985 (launch of New Coke,...". Use a horizontal process diagram with 4 to 5 ordered stages with directed connectors. Marks: rectangular stage nodes and arrow connectors. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/03-jungian-brand-archetypes-as-a-system-fig-07.html`
+
+---
+
+### Figure 3.8 — comparison table across all three cases
+
+Create a standalone D3 v7 HTML figure for "comparison table across all three cases". Use a horizontal process diagram with 4 to 5 ordered stages with directed connectors. Marks: rectangular stage nodes and arrow connectors. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/03-jungian-brand-archetypes-as-a-system-fig-08.html`
+
+---
+
+### Figure 3.9 — worked shadow analysis for one brand
+
+Create a standalone D3 v7 HTML figure for "worked shadow analysis for one brand". Use a horizontal process diagram with 4 to 5 ordered stages with directed connectors. Marks: rectangular stage nodes and arrow connectors. Channels: position for sequence or category, length for quantitative emphasis when bars are used, color for the primary highlighted item only, and direct text labels for accessibility. Use a zero baseline for quantitative bars. Include title, desc, role="img", aria-labelledby, ResizeObserver redraw, dark mode CSS variables, and reduced-motion safeguards. Deliver as one HTML file with inline CSS and the D3 7.9.0 CDN.
+
+> Reference implementation: `d3/03-jungian-brand-archetypes-as-a-system-fig-09.html`

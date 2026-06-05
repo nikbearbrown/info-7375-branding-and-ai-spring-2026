@@ -1,5 +1,12 @@
 # Chapter 29 — Case: PULSARAI — The Pulse of Tech Intelligence
 
+
+## TL;DR
+
+- A tech-news intelligence startup brand built around a single radical-affordability commitment — three minutes and one penny per run replaces two hours and forty dollars per day per knowledge worker — anchored on a...
+- The chapter moves through Situation, Architecture, Design rationale, Trade-offs, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A tech-news intelligence startup brand built around a single radical-affordability commitment — three minutes and one penny per run replaces two hours and forty dollars per day per knowledge worker — anchored on a Creator × Magician archetype pairing, a pricing model published on the deck, and a fully-shipped five-platform brand ecosystem.*
 
 **Author:** Pratiksha Mahadevrao Mohod

@@ -1,5 +1,12 @@
 # Chapter 15 — Case: thinkwithshari
 
+
+## TL;DR
+
+- An AI-engineering personal brand built around the move from reactive data analyst to proactive systems builder — proof-over-claims as the load-bearing pillar, with three deployed agentic systems on the portfolio shelf.
+- The chapter moves through Situation, Architecture, Design rationale, Trade-offs, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *An AI-engineering personal brand built around the move from reactive data analyst to proactive systems builder — proof-over-claims as the load-bearing pillar, with three deployed agentic systems on the portfolio shelf.*
 
 **Author:** Mycline Shareena John Peter Kennedy

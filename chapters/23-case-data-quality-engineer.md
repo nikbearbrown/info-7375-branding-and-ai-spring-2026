@@ -1,5 +1,12 @@
 # Chapter 23 — Case: Build to Trust — Deepa Shenoy
 
+
+## TL;DR
+
+- A data-engineer personal brand built on a single inversion — most data engineers focus on speed, this one focuses on making data trustworthy — anchored on a real audit story (a duplicate transaction ID inflating...
+- The chapter moves through Situation, Architecture, Design rationale, Trade-offs, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A data-engineer personal brand built on a single inversion — most data engineers focus on speed, this one focuses on making data trustworthy — anchored on a real audit story (a duplicate transaction ID inflating conversion by 15–20%) and a Validation-First Pipeline framework named explicitly.*
 
 **Author:** Deepa Shenoy

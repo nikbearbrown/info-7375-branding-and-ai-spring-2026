@@ -1,4 +1,11 @@
 # Chapter 5 — Data Pipelines and Workflow Automation
+
+## TL;DR
+
+- Every external dependency is a contract.
+- The chapter moves through Learning Objectives, Prerequisites, Why this chapter matters, Part 1: What "Data Pipeline" Actually Means, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *Every external dependency is a contract. Every contract will change.*
 
 ---
@@ -566,12 +573,15 @@ The question this chapter leaves entirely open: what does pipeline design look l
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Joan Robinson** developed the formal economics of imperfect competition in the 1930s — the math of markets where one party has dominant power because the other parties have nowhere else to go. *Monopsony*, the term she coined, is exactly the structure of the Apollo–Reddit relationship: one buyer (the platform), many sellers (the third-party developers), no realistic alternative. Robinson's argument is that under monopsony the dominant party can change the contract terms unilaterally, capturing surplus that would be split under genuine competition. Apollo experienced that capture in real time, in 2023, with three months' notice. The chapter's design disciplines — document the contract, build degraded modes, monitor for drift — are how a pipeline survives life inside someone else's monopsony.
 
 ![Joan Robinson, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/joan-robinson.jpg)
 *Joan Robinson, c. 1940s. AI-generated portrait based on a public domain photograph.*
+
+![Joan Robinson](../images/joan-robinson-l7i.png)
+
+*Puppet Art by [Nik Bear Brown](https://www.nikbearbrown.com/).*
 
 **Run this:**
 

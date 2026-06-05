@@ -1,5 +1,12 @@
 # Chapter 16 — Case: Production AI Systems Specialist
 
+
+## TL;DR
+
+- A research-credentials-meet-production-engineering personal brand built around a single defining metric — 150 seconds to 28 seconds, a 81% latency reduction on a real legal-AI platform — with PositionPulse as the...
+- The chapter moves through Situation, Architecture, Design rationale, Trade-offs, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A research-credentials-meet-production-engineering personal brand built around a single defining metric — 150 seconds to 28 seconds, a 81% latency reduction on a real legal-AI platform — with PositionPulse as the flagship demonstrating the same systems-thinking move at the product level.*
 
 **Author:** Swara Kamal Joshi

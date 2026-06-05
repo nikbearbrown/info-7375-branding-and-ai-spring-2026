@@ -1,5 +1,12 @@
 # Chapter 28 — Case: TriagePilot — Automate the Exhaustion, Not the Empathy
 
+
+## TL;DR
+
+- A multi-modal customer-support-triage startup brand built on a deliberate inversion of the conversational-AI category — automate the back-room ticket sorting, leave the empathetic conversation to humans — anchored on...
+- The chapter moves through Situation, Architecture, Design rationale, Trade-offs, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A multi-modal customer-support-triage startup brand built on a deliberate inversion of the conversational-AI category — automate the back-room ticket sorting, leave the empathetic conversation to humans — anchored on a transparent *glass-box* orchestration architecture argued explicitly against the *black-box* AI chatbots the brand competes against.*
 
 **Author:** Manav Dilipbhai Kheni

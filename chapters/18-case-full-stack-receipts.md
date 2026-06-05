@@ -1,5 +1,12 @@
 # Chapter 18 — Case: Full-Stack Receipts — Shreya Kini
 
+
+## TL;DR
+
+- A full-stack-engineer-with-AI-systems personal brand built around two production deployments and one operative question — what would make this problem impossible to repeat?
+- The chapter moves through Situation, Architecture, Design rationale, Trade-offs, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A full-stack-engineer-with-AI-systems personal brand built around two production deployments and one operative question — what would make this problem impossible to repeat? — held together by a Sage + Creator archetype and Madison as the demonstration tool.*
 
 **Author:** Shreya Shivshankar Kini

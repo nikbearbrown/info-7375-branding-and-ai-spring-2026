@@ -1,5 +1,12 @@
 # Chapter 36 — Case: AdverseAI — Drug Safety Intelligence as Public Infrastructure
 
+
+## TL;DR
+
+- A drug-safety-intelligence startup brand built around a single democratization move — public FDA data plus public adverse-event records turned into research-ready output in under two minutes at one-fifth of a cent...
+- The chapter moves through Situation, Architecture, Design rationale, Trade-offs, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A drug-safety-intelligence startup brand built around a single democratization move — public FDA data plus public adverse-event records turned into research-ready output in under two minutes at one-fifth of a cent per query — anchored on a deliberate enterprise-replacement positioning and a Quest-framework origin grounded in Spring 2020 public-health research.*
 
 **Author:** Manisha Sahu

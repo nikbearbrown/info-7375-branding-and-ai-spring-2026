@@ -1,5 +1,12 @@
 # Chapter 31 — Case: Aligna — Brand Voice as a Decidable Question
 
+
+## TL;DR
+
+- A brand-voice quality-assurance startup brand built around a single category-creation move — most AI tools generate content; Aligna evaluates it — anchored on a structured PASS / FLAG / REVIEW output format that...
+- The chapter moves through Situation, Architecture, Design rationale, Trade-offs, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A brand-voice quality-assurance startup brand built around a single category-creation move — most AI tools generate content; Aligna evaluates it — anchored on a structured PASS / FLAG / REVIEW output format that turns subjective brand feedback into auditable decisions.*
 
 **Author:** Vivek Suryakant Nikam

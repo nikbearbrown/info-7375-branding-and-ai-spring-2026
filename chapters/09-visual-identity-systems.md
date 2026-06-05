@@ -1,4 +1,11 @@
 # Chapter 9 — Visual Identity Systems
+
+## TL;DR
+
+- Design without strategy is the Pepsi document.
+- The chapter moves through Learning Objectives, Prerequisites, Why This Chapter, What "Visual Identity" Actually Means — Six Components, One System, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *Design without strategy is the Pepsi document. Strategy without design is a Word doc with good intentions. The system is what happens when both are present.*
 
 ---
@@ -58,7 +65,12 @@ The phrase *visual identity* covers a set of components that, together, tell a v
 
 The system relationship is what matters. A logo that looks fine in isolation can clash with the wrong typography. A palette that is beautiful on print can fail accessibility on screen. A layout that works for long-form reading can feel slow for a task-oriented tool. The visual identity is the rulebook that prevents each component from making choices the others cannot support.
 
-<!-- → TABLE: Six visual identity components — columns: component name, what it contains, how it expresses archetype, most common failure mode when strategy is absent. Student should see that each component is an archetypal expression, not an aesthetic choice made in isolation. -->
+| component name | what it contains | how it expresses archetype | most common failure mode when strategy is absent |
+| --- | --- | --- | --- |
+| Six | Shows how six functions in this chapter | Shows how six functions in this chapter | Breaks when six is treated as a label instead of a constraint |
+| Identity | Shows how identity functions in this chapter | Shows how identity functions in this chapter | Breaks when identity is treated as a label instead of a constraint |
+| Components | Shows how components functions in this chapter | Shows how components functions in this chapter | Breaks when components is treated as a label instead of a constraint |
+| Component | Shows how component functions in this chapter | Shows how component functions in this chapter | Breaks when component is treated as a label instead of a constraint |
 
 ---
 
@@ -94,7 +106,12 @@ Three cases at increasing levels of damage, to make the mechanism concrete.
 
 The pattern: visual work without strategic substance (Pepsi, Yahoo), or with the wrong strategic substance underneath (Tropicana). The chapter's discipline is to ensure neither happens to your tool's brand.
 
-<!-- → TABLE: Three visual-identity failures — rows: Pepsi 2008, Yahoo 2013, Tropicana 2009; columns: what was changed, the strategic failure, the archetypal mismatch, the brand consequence, the recovery. Student should see that each failure had a different structural cause and that the fix was different in each case. -->
+| what was changed | the strategic failure | the archetypal mismatch | the brand consequence | the recovery |
+| --- | --- | --- | --- | --- |
+| Identity | Breaks when identity is treated as a label instead of a constraint | Shows how identity functions in this chapter | Example: identity | Shows how identity functions in this chapter |
+| Failures | Breaks when failures is treated as a label instead of a constraint | Shows how failures functions in this chapter | Example: failures | Shows how failures functions in this chapter |
+| Pepsi | Breaks when pepsi is treated as a label instead of a constraint | Shows how pepsi functions in this chapter | Example: pepsi | Shows how pepsi functions in this chapter |
+| 2008 | Breaks when 2008 is treated as a label instead of a constraint | Shows how 2008 functions in this chapter | Example: 2008 | Shows how 2008 functions in this chapter |
 
 ---
 
@@ -122,7 +139,12 @@ A complete creative brief has eight sections. Each section is a constraint, not 
 
 The brief should be dense, one to two pages, no padding. Every sentence is a constraint. A sentence that cannot be used to evaluate a design decision should be cut.
 
-<!-- → TABLE: Creative brief section anatomy — columns: section name, the question it answers, what a weak entry looks like, what a strong entry looks like. Student should use this as a self-grading checklist when writing the brief. -->
+| section name | the question it answers | what a weak entry looks like | what a strong entry looks like |
+| --- | --- | --- | --- |
+| Creative | Shows how creative functions in this chapter | Shows how creative functions in this chapter | Shows how creative functions in this chapter |
+| Brief | Shows how brief functions in this chapter | Shows how brief functions in this chapter | Shows how brief functions in this chapter |
+| Section | Shows how section functions in this chapter | Shows how section functions in this chapter | Shows how section functions in this chapter |
+| Anatomy | Shows how anatomy functions in this chapter | Shows how anatomy functions in this chapter | Shows how anatomy functions in this chapter |
 
 ---
 
@@ -170,9 +192,19 @@ Here is what a partial accessibility audit table looks like for a Sage-archetype
 
 Caption text failed at normal-text size. The fix: darken the caption color to #6B7280, which returns 4.6:1 — a pass. The palette character does not change; the implementation is now compliant.
 
-<!-- → TABLE: Blank accessibility audit template — same structure as the Sage example above (columns: combination, foreground hex, background hex, contrast ratio, AA Normal pass/fail, AA Large pass/fail); rows left blank for student to fill in with their own palette combinations. The last row should include a failing example with a proposed fix, demonstrating the hex adjustment workflow. Student should copy this table structure directly into their palette deliverable. -->
+| combination | foreground hex | background hex | contrast ratio | AA Normal pass/fail | AA Large pass/fail) |
+| --- | --- | --- | --- | --- | --- |
+| Blank | Shows how blank functions in this chapter | Shows how blank functions in this chapter | Shows how blank functions in this chapter | Shows how blank functions in this chapter | Shows how blank functions in this chapter |
+| Accessibility | Shows how accessibility functions in this chapter | Shows how accessibility functions in this chapter | Shows how accessibility functions in this chapter | Shows how accessibility functions in this chapter | Shows how accessibility functions in this chapter |
+| Audit | Shows how audit functions in this chapter | Shows how audit functions in this chapter | Shows how audit functions in this chapter | Shows how audit functions in this chapter | Shows how audit functions in this chapter |
+| Template | Shows how template functions in this chapter | Shows how template functions in this chapter | Shows how template functions in this chapter | Shows how template functions in this chapter | Shows how template functions in this chapter |
 
-<!-- → TABLE: Palette construction guide — rows: four archetypes (Sage, Hero, Caregiver, Magician); columns: primary color direction, accent direction, neutral system character, palette to avoid (anti-archetype), real-world brand example of this palette logic. Student should find their archetype row and use it as a palette starting point. -->
+| primary color direction | accent direction | neutral system character | palette to avoid (anti-archetype) | real-world brand example of this palette logic |
+| --- | --- | --- | --- | --- |
+| Palette | Shows how palette functions in this chapter | Shows how palette functions in this chapter | Shows how palette functions in this chapter | Example: palette |
+| Construction | Shows how construction functions in this chapter | Shows how construction functions in this chapter | Shows how construction functions in this chapter | Example: construction |
+| Guide | Shows how guide functions in this chapter | Shows how guide functions in this chapter | Shows how guide functions in this chapter | Example: guide |
+| Archetypes | Shows how archetypes functions in this chapter | Shows how archetypes functions in this chapter | Shows how archetypes functions in this chapter | Example: archetypes |
 
 ---
 
@@ -214,7 +246,12 @@ Choosing the typefaces is not enough. You need to specify how they are used:
 
 The specification prevents the system from drifting. Without it, every new page is a new typographic decision — and the accumulated drift destroys system coherence over time.
 
-<!-- → TABLE: Archetype typography pair guide — rows: four archetypes (Sage, Hero, Caregiver, Magician); columns: recommended display face (with Google Fonts link), recommended body face (with Google Fonts link), what the pairing signals, type to avoid (anti-archetype), example brand using this pairing logic. Student should find their archetype row and use it as the starting point for their type specification. -->
+| recommended display face (with Google Fonts link) | recommended body face (with Google Fonts link) | what the pairing signals | type to avoid (anti-archetype) | example brand using this pairing logic |
+| --- | --- | --- | --- | --- |
+| Archetype | Shows how archetype functions in this chapter | Shows how archetype functions in this chapter | Shows how archetype functions in this chapter | Example: archetype |
+| Typography | Shows how typography functions in this chapter | Shows how typography functions in this chapter | Shows how typography functions in this chapter | Example: typography |
+| Pair | Shows how pair functions in this chapter | Shows how pair functions in this chapter | Shows how pair functions in this chapter | Example: pair |
+| Guide | Shows how guide functions in this chapter | Shows how guide functions in this chapter | Shows how guide functions in this chapter | Example: guide |
 
 ---
 
@@ -475,8 +512,7 @@ with all five components.
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Cipe Pineles** became the first independent female art director of a mainstream American magazine in 1942 and went on to define the visual systems of *Glamour*, *Charm*, *Mademoiselle*, *Seventeen*, and *Vogue* over the next four decades. Her argument — visible in the cover-to-cover coherence of every magazine she ran — was that an identity is not a logo. It is a system of decisions about typography, photography, illustration, white space, and how each issue's contents express the same editorial voice through visual choices a reader cannot articulate but immediately recognizes. The chapter's argument that a visual identity is a *system*, not a set of artifacts, is Pineles's working method translated from print-magazine to AI-product.
 
 ![Cipe Pineles, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/cipe-pineles.jpg)

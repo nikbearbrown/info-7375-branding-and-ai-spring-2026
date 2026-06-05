@@ -1,4 +1,11 @@
 # Chapter 12 — Professional Presence and Launch
+
+## TL;DR
+
+- The final deliverable is not your portfolio.
+- The chapter moves through Learning Objectives, Prerequisites, Why this chapter matters, Part 1: The Coherence Principle, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The final deliverable is not your portfolio. It is you.*
 
 ---
@@ -590,12 +597,15 @@ Now go ship.
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Margaret Bourke-White** built a professional presence by deliberately crossing institutional boundaries that her field treated as fixed: first foreign photographer admitted into the Soviet Union (1930), first woman war correspondent attached to the U.S. Army Air Forces, first female photographer at *Life* magazine and the photographer of its first cover (1936), among the first journalists to document the liberation of Buchenwald. None of these crossings were accidents. Each was the result of a clear decision about which assignment to take, which to refuse, and how to make the case for the next one. The chapter's argument — that professional presence is the assembled artifact, not the byproduct of doing good work — is Bourke-White's working method, made explicit.
 
 ![Margaret Bourke-White, c. 1930s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/margaret-bourke-white.jpg)
 *Margaret Bourke-White, c. 1930s. AI-generated portrait based on a public domain photograph.*
+
+![Margaret Bourke-White](../images/margaret-bourke-white-oe4.png)
+
+*Puppet Art by [Nik Bear Brown](https://www.nikbearbrown.com/).*
 
 **Run this:**
 

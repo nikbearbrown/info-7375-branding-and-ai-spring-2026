@@ -1,4 +1,11 @@
 # Chapter 2 — The Madison Framework
+
+## TL;DR
+
+- Five roles, one pipeline, and the moment you realize architecture is brand.
+- The chapter moves through Learning Objectives, Prerequisites, Why This Chapter, What "Agent" Actually Means, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *Five roles, one pipeline, and the moment you realize architecture is brand.*
 
 ---
@@ -58,7 +65,12 @@ What matters for you, building a product, is knowing which meaning you are opera
 
 Madison uses meaning 4. All five of its agents are specialized roles in a coordinated pipeline, not autonomous problem-solvers. I will argue in section 2 that this was the right choice for a production marketing tool — and I will tell you the specific cost it carries.
 
-<!-- → TABLE: Four meanings of "agent" — columns: meaning, example, who uses it, what it implies architecturally. Student should see that the same word maps to very different system designs. -->
+| meaning | example | who uses it | what it implies architecturally |
+| --- | --- | --- | --- |
+| Meanings | Example: meanings | Guides the meanings decision and makes it checkable | Guides the meanings decision and makes it checkable |
+| Agent | Example: agent | Guides the agent decision and makes it checkable | Guides the agent decision and makes it checkable |
+| Meaning | Example: meaning | Guides the meaning decision and makes it checkable | Guides the meaning decision and makes it checkable |
+| Example | Example: example | Guides the example decision and makes it checkable | Guides the example decision and makes it checkable |
 
 ---
 
@@ -210,7 +222,12 @@ Madison chose predictability. For a marketing intelligence framework that needs 
 
 The core technologies Madison uses across its layers reflect this commitment to structured, auditable work: GPT-4o and BERT for language tasks, PCA and clustering for data analysis, Thompson sampling and contextual bandits for optimization, Neo4j and RDF for knowledge graph work. Each technology is a production choice, not a novelty pick. Neo4j for brand perception tracking because graph databases represent the relationships between brand entities naturally. Thompson sampling for content optimization because it handles the exploration-exploitation trade-off in multi-armed bandit problems better than naive approaches. These choices compound: each one makes the system more legible to the engineer maintaining it and more trustworthy to the customer paying for it.
 
-<!-- → TABLE: Graph-based vs. conversation-based orchestration — columns: property, graph-based (n8n/LangGraph), conversation-based (AutoGen); rows: how workflow is defined, failure locatability, flexibility for novel tasks, production reliability, best use case. Student should be able to choose between patterns for their own system. -->
+| property | graph-based (n8n/LangGraph) | conversation-based (AutoGen) |
+| --- | --- | --- |
+| Graph | Shows how graph functions in this chapter | Shows how graph functions in this chapter |
+| Based | Shows how based functions in this chapter | Shows how based functions in this chapter |
+| Conversation | Shows how conversation functions in this chapter | Shows how conversation functions in this chapter |
+| Orchestration | Shows how orchestration functions in this chapter | Shows how orchestration functions in this chapter |
 
 ### The Human-in-the-Loop Decision
 
@@ -222,7 +239,12 @@ This is the right choice for marketing work in 2026. The consequences of an auto
 
 Where you place humans in your own pipeline is not a philosophical question — it is a risk-engineering question. Identify the decisions in your system where a wrong answer is expensive and hard to reverse. Put humans there. Automate everything else.
 
-<!-- → TABLE: Human-in-the-loop decision matrix — rows: five Madison layers plus orchestration; columns: decision type, consequence of wrong answer (low/medium/high), reversibility (easy/hard/irreversible), recommended human touch point (none / review / approve). Student should use this as a template for placing humans in their own pipeline. -->
+| decision type | consequence of wrong answer (low/medium/high) | reversibility (easy/hard/irreversible) | recommended human touch point (none / review / approve) |
+| --- | --- | --- | --- |
+| Human | Shows how human functions in this chapter | Shows how human functions in this chapter | Shows how human functions in this chapter |
+| Loop | Shows how loop functions in this chapter | Shows how loop functions in this chapter | Shows how loop functions in this chapter |
+| Decision | Shows how decision functions in this chapter | Shows how decision functions in this chapter | Shows how decision functions in this chapter |
+| Matrix | Shows how matrix functions in this chapter | Shows how matrix functions in this chapter | Shows how matrix functions in this chapter |
 
 ---
 
@@ -258,7 +280,12 @@ Madison is a reference architecture, not a template. Reading it well teaches you
 
 **Notice what Madison's architecture does not solve.** Madison is a marketing intelligence framework built for organizations that have existing data sources, existing brand guidelines, and existing marketing workflows. It is not a framework for someone who is starting a brand from scratch or trying to reach a consumer with no prior relationship. The choice of Knowledge Graph systems (Neo4j, RDF, SPARQL) for brand perception tracking assumes you already have brand perception worth tracking. Every architecture embeds assumptions about who the user is and what state they are already in. Reading those assumptions teaches you what the architecture is actually for — and what you will need to supply differently.
 
-<!-- → TABLE: Madison layer × archetype fit — rows: five layers plus orchestration; columns: layer name, primary function, best-fit archetype, what the student would customize, one failure mode to watch. Student should be able to pick their layer and anticipate where their design diverges from Madison's reference. -->
+| layer name | primary function | best-fit archetype | what the student would customize | one failure mode to watch |
+| --- | --- | --- | --- | --- |
+| Madison | Shows how madison functions in this chapter | Shows how madison functions in this chapter | Shows how madison functions in this chapter | Breaks when madison is treated as a label instead of a constraint |
+| Layer | Shows how layer functions in this chapter | Shows how layer functions in this chapter | Shows how layer functions in this chapter | Breaks when layer is treated as a label instead of a constraint |
+| Archetype | Shows how archetype functions in this chapter | Shows how archetype functions in this chapter | Shows how archetype functions in this chapter | Breaks when archetype is treated as a label instead of a constraint |
+| Fit | Shows how fit functions in this chapter | Shows how fit functions in this chapter | Shows how fit functions in this chapter | Breaks when fit is treated as a label instead of a constraint |
 
 ---
 
@@ -469,12 +496,15 @@ with the five layer plans plus the load-bearing-layer call.
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Marshall McLuhan** spent the 1960s arguing — to a public that mostly didn't yet have the vocabulary for it — that the *medium* shapes the message it carries, and that the architecture of a communication system is the message far more than any individual transmission through it. The Madison framework's central claim is the same shape, applied to AI tooling: the structural choices in the workflow (parallel ingestion branches, audit logs, the role split across the five agents) are the brand long before the marketing copy is written.
 
 ![Marshall McLuhan, c. 1960s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/marshall-mcluhan.jpg)
 *Marshall McLuhan, c. 1960s. AI-generated portrait based on a public domain photograph.*
+
+![Marshall McLuhan](../images/marshall-mcluhan-2tn.png)
+
+*Puppet Art by [Nik Bear Brown](https://www.nikbearbrown.com/).*
 
 **Run this:**
 

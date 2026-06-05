@@ -1,4 +1,11 @@
 # Chapter 1 — The Creative Engineer
+
+## TL;DR
+
+- When the cost of building collapses, the value of knowing what to build rises.
+- The chapter moves through Learning Objectives, Prerequisites, Why this chapter matters, Part 1: The Experiment, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *When the cost of building collapses, the value of knowing what to build rises.*
 
 ---
@@ -469,8 +476,7 @@ The question this chapter leaves open: is the four-verb framework the right deco
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Thorstein Veblen** spent the 1890s at the University of Chicago working out a problem the chapter has been working on under a different name: why do humans signal? In *The Theory of the Leisure Class* (1899) Veblen named *conspicuous consumption* — the pattern of acquiring costly things specifically because their cost is observable, and therefore signals capacity to acquire them. Spence formalized the mechanism eighty years later in markets for jobs and credentials. Veblen saw it first in markets for status and class.
 
 ![Thorstein Veblen, c. 1880s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/thorstein-veblen.jpg)

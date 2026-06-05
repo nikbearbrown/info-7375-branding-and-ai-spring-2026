@@ -1,5 +1,12 @@
 # Chapter 33 — Case: SpendSignal.ai — Decision Layer for Ad Spend
 
+
+## TL;DR
+
+- A small-business marketing-decision-intelligence startup brand built around a single output-format commitment — STOP / FIX / INVEST / OBSERVE — anchored on confidence-scored multi-source ad-data analysis at one-tenth...
+- The chapter moves through Situation, Architecture, Design rationale, Trade-offs, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A small-business marketing-decision-intelligence startup brand built around a single output-format commitment — STOP / FIX / INVEST / OBSERVE — anchored on confidence-scored multi-source ad-data analysis at one-tenth the price of the enterprise incumbent and a brand voice that names INFO 7375 explicitly as the moment the developer became a Creative Engineer.*
 
 **Author:** Rupam Patra

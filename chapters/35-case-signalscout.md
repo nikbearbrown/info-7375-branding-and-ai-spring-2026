@@ -1,5 +1,12 @@
 # Chapter 35 — Case: SignalScout — Your Taste, on Autopilot
 
+
+## TL;DR
+
+- An AI-research-curation startup brand built around a single inversion of the AI-tool category — the market outsources writing; SignalScout outsources reading — anchored on a contextual multi-armed bandit that learns...
+- The chapter moves through Situation, Architecture, Design rationale, Trade-offs, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *An AI-research-curation startup brand built around a single inversion of the AI-tool category — the market outsources writing; SignalScout outsources reading — anchored on a contextual multi-armed bandit that learns the user's taste across three named evaluator agents (Skeptic, Scout, Operator) and renders the brand's pillars as architecture constraints rather than decoration.*
 
 **Author:** Aravind Ravi
